@@ -1,0 +1,109 @@
+#ant_cover {
+    background-image: url("ant_cover.png");
+}
+
+#catalog_cover {
+    background-image: url("catalog_cover.png");
+}
+
+#junto_cover {
+    background-image: url("junto_cover.png");
+}
+
+#cinnabon_cover {
+    background-image: url("cinnabon_cover.png");
+}
+
+#humancir_cover {
+    background-image: url("humancir_cover.png");
+}
+
+#fashion_cover {
+    background-image: url("Fashion.png");
+}
+
+#about_cover {
+    background-image: url("0-Amy-Lu.jpg");
+}
+
+.responsive {
+    background-position: center;
+    height: 238px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 0.8;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #EEE;
+    margin: 2%;
+    overflow: hidden;
+    max-width: 335px;
+}
+
+.responsive:hover {    
+    background-size: auto 120%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    opacity: 1;
+    box-shadow: 0 15px 25px -10px (rgba(0, 0, 0, 0.25));
+}
+
+.responsive-wrapper {
+    text-align: center;
+}
+
+.responsive-text {
+    margin-top: 180px;
+    background-color: rgba(252, 252, 252, 0.9);
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+}
+
+p.text-right {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#Design {
+    background-color:#ebf7ff;
+}
+
+#Research {
+    background-color: #E9E2FD;
+}
+
+#Fashion {
+    background-color: #FDE2F6;
+}
+
+#About {
+    background-color: #EDF9EA;
+}
+
+ul.nav {
+    position: absolute;
+    top: 100px;
+}
+
+a.nav-link, a.design_sub {
+    color: #767676;
+}
+
+a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
+    color: black;
+}
+
+a.design_sub {
+    font-size: 10px;
+}
+
+#amy:hover, #amy:active {
+    color: black;
+}
