@@ -1,3 +1,9 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
 #ant_cover {
     background-image: url("ant_cover.png");
 }
@@ -38,7 +44,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border: 1px solid #EEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 2%;
     overflow: hidden;
     max-width: 335px;
@@ -68,11 +74,16 @@
 
 p.text-right {
     font-weight: bold;
-    font-size: 100px;
+    font-size: 8vw;
+}
+
+#Intro {
+    padding-top: 30px;
 }
 
 #Design {
     background-color:#ebf7ff;
+    margin-top: 30px;
 }
 
 #Research {
@@ -87,9 +98,11 @@ p.text-right {
     background-color: #EDF9EA;
 }
 
-ul.nav {
-    position: absolute;
-    top: 100px;
+ul.navbar-nav {
+    padding-top: 230px;
+    font-size: 14px;
+    line-height: 133.69%;
+    letter-spacing: 0.2em;
 }
 
 a.nav-link, a.design_sub {
@@ -101,9 +114,43 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
 }
 
 a.design_sub {
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 133.69%;
+    letter-spacing: 0.2em;
 }
 
 #amy:hover, #amy:active {
     color: black;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: 0.1em;
+}
+
+#whoIsAmy {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    letter-spacing: 0.07em;
+    color: #4A4A4A;
+}
+
+#copyright {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #4A4A4A;
+}
+
+footer {
+    padding-top: 30px;
 }

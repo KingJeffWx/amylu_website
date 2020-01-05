@@ -16,36 +16,37 @@
         <div class="row">
             <div class="col-10">
                 <!-- Introduction -->
-                <div name="Intro">
+                <div id="Intro">
                     <h1>Hello! I'm <a id="amy" href="about.html">Amy Lu</a>.</h1>
-                    <p>I'm a product designer, currently studying <b>Master of Human-Computer Interaction</b> at Carnegie Mellon University.</p>
+                    <br>
+                    <p id="whoIsAmy">I'm a product designer, currently studying <b>Master of Human-Computer Interaction</b> at Carnegie Mellon University.</p>
                 </div>
                 <!-- Design section -->
                 <div class="container border" id="Design">
                     <!-- Design cover images -->
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="ant_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">Who knows What about us and Why?</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="catalog_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">Pet adoption app: cat-a-log</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="junto_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">Anti-Procrastination: Junto</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="cinnabon_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">cinnabon web design</div>
@@ -62,7 +63,7 @@
                 <!-- Research section -->
                 <div class="container border" id="Research">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="humancir_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">Art + Human Circuit</div>
@@ -79,7 +80,7 @@
                 <!-- Fashion section -->
                 <div class="container border" id="Fashion">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="fashion_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">Fashion</div>
@@ -96,7 +97,7 @@
                 <!-- About section -->
                 <div class="container border" id="About">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-4">
                             <div class="responsive" id="about_cover">
                                 <div class="responsive-wrapper">         
                                     <div class="responsive-text" style="display: none;">About Me</div>
@@ -114,12 +115,12 @@
                 <footer>
                     <div class="container">
                         <div class="row">
-                            <div class="col">
-                                © Copyright Amy Lu 2019
+                            <div class="col-sm text-md-left text-center">
+                                <p id="copyright">© Copyright Amy Lu 2019</p>
                             </div>
-                            <div class="col">
+                            <div class="col-sm text-md-right text-center">
                                 <!-- Social media buttons -->
-                                <ul class="list-unstyled list-inline float-right">
+                                <ul class="list-unstyled list-inline">
                                     <li class="list-inline-item">
                                         <a>
                                             <i class="fa fa-instagram"></i>
@@ -143,31 +144,35 @@
             </div>
             <div class="col">
                 <!-- Navbar for homepage -->
-                <nav class="navbar sticky-top">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="nav1">DESIGN</a>
-                            <ul id="nav1_sub" hidden>
-                                <li> <a class="design_sub">Who knows what about us and why?</a></li>
-                                <li> <a class="design_sub">cat-a-log</a> </li>
-                                <li> <a class="design_sub">Junto</a> </li>
-                                <li> <a class="design_sub">cinnabon</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="nav2">RESEARCH</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="nav3">FASHION</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" id="nav4">ABOUT ME</a>
-                        </li>
-                    </ul>
+                <nav class="navbar navbar-expand-md navbar-light sticky-top">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navlist">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navlist">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="nav1">DESIGN</a>
+                                <ul class="list-unstyled" id="nav1_sub" hidden>
+                                    <li> <a class="design_sub">&nbsp;&nbsp; - Who knows what about us and why?</a></li>
+                                    <li> <a class="design_sub">&nbsp;&nbsp; - cat-a-log</a> </li>
+                                    <li> <a class="design_sub">&nbsp;&nbsp; - Junto</a> </li>
+                                    <li> <a class="design_sub">&nbsp;&nbsp; - cinnabon</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="nav2">RESEARCH</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="nav3">FASHION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="nav4">ABOUT ME</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </div>
-       
     </div>
     
 
