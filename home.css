@@ -34,24 +34,26 @@
 
 .responsive {
     background-position: center;
-    height: 238px;
+    height: calc(238px * 0.8);
+    width: calc(335px * 0.8);
     background-repeat: no-repeat;
-    background-size: auto 100%;
+    background-size: auto 105%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-    opacity: 0.8;
+    opacity: 1;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 2%;
     overflow: hidden;
+    max-height: 238px;
     max-width: 335px;
 }
 
 .responsive:hover {    
-    background-size: auto 120%;
+    background-size: auto 123%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -64,7 +66,7 @@
 }
 
 .responsive-text {
-    margin-top: 180px;
+    margin-top: 50%;
     background-color: rgba(252, 252, 252, 0.9);
     padding: 10px;
     color: black;
@@ -75,6 +77,7 @@
 p.text-right {
     font-weight: bold;
     font-size: 8vw;
+    margin-bottom: -3.4vw;
 }
 
 #Intro {
@@ -83,19 +86,23 @@ p.text-right {
 
 #Design {
     background-color:#ebf7ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 30px;
 }
 
 #Research {
     background-color: #E9E2FD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #Fashion {
     background-color: #FDE2F6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 #About {
     background-color: #EDF9EA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 ul.navbar-nav {
