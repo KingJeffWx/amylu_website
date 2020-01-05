@@ -34,8 +34,8 @@
 
 .responsive {
     background-position: center;
-    height: calc(238px * 0.8);
-    width: calc(335px * 0.8);
+    height: calc(2.38vw * 6.0);
+    width: calc(3.35vw * 6.0);
     background-repeat: no-repeat;
     background-size: auto 105%;
     -moz-transition: all 0.3s;
@@ -106,7 +106,7 @@ p.text-right {
 }
 
 ul.navbar-nav {
-    padding-top: 230px;
+    padding-top: 220px;
     font-size: 14px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
