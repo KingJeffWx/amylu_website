@@ -1,5 +1,5 @@
 * {
-    font-family: Roboto;
+    font-family: (Roboto);
     font-style: normal;
     font-weight: normal;
 }
@@ -15,7 +15,7 @@ p {
 }
 
 p.aboutTop1 {
-    font-family: Roboto;
+    font-family: (Roboto);
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -26,7 +26,7 @@ p.aboutTop1 {
 }
 
 p.aboutTop2 {
-    font-family: Roboto;
+    font-family: (Roboto);
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -75,20 +75,20 @@ figure.dating_figure {
     margin-left: 15%;
 }
 
+.personaPics {
+    height: auto;
+    width: 25vw;
+}
+
 #catalog_cover {
     height: auto;
     width: 30vw;
     margin-top: -100px;
 }
 
-#persona_1 {
+.modal_L {
     height: auto;
-    width: 25vw;
-}
-
-#persona_2 {
-    height: auto;
-    width: 25vw;
+    width: 100%;
 }
 
 #storyboard_1 {
@@ -259,7 +259,7 @@ a.design_sub {
 }
 
 h1 {
-    font-family: Roboto;
+    font-family: (Roboto);
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -270,7 +270,7 @@ h1 {
 }
 
 h2 {
-    font-family: Roboto;
+    font-family: (Roboto);
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
