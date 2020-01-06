@@ -1,0 +1,240 @@
+* {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#mainContent {
+    /*background-color: #E5E5E5; */
+    background-color: rgb(200,200,200);
+}
+p {
+    font-size: 12px;
+    line-height: 7px;
+}
+
+p.aboutTop1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 139.19%;
+    /* or 17px */
+    letter-spacing: 0.015em;    
+    color: #4A4A4A;
+}
+
+p.aboutTop2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 155.19%;
+    /* or 19px */
+    color: #4A4A4A;
+}
+
+p.paragraphDes {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.19%;
+    color: #4A4A4A;
+}
+
+.caption {
+    text-align: right;
+    margin-right: 3vw;
+    font-family: SF Pro Text;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 155.19%;
+    /* or 16px */
+    color: #4A4A4A;
+}
+
+#catalog_cover {
+    height: auto;
+    width: 30vw;
+    margin-top: -100px;
+}
+
+#persona_1 {
+    height: auto;
+    width: 25vw;
+}
+
+#persona_2 {
+    height: auto;
+    width: 25vw;
+}
+
+#storyboard_1 {
+    height: auto;
+    width: 20vw;
+}
+
+#storyboard_2 {
+    height: auto;
+    width: 20vw;
+}
+
+#storyboard_3 {
+    height: auto;
+    width: 20vw;
+}
+
+#storyboard_4 {
+    height: auto;
+    width: 20vw;
+}
+
+#storyboard_5 {
+    height: auto;
+    width: 20vw;
+}
+
+#speeddate_1 {
+    height: auto;
+    width: 20vw;
+}
+
+#speeddate_2 {
+    height: auto;
+    width: 20vw;
+}
+
+#lowfi_1 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_2 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_3 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_4 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_5 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_6 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_7 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_8 {
+    height: auto;
+    width: 15vw;
+}
+
+#lowfi_9 {
+    height: auto;
+    width: 15vw;
+}
+
+#desktop_1 {
+    height: auto;
+    width: 35vw;
+}
+
+#desktop_2 {
+    height: auto;
+    width: 35vw;
+}
+
+#desktop_3 {
+    height: auto;
+    width: 35vw;
+}
+
+#desktop_4 {
+    height: auto;
+    width: 35vw;
+}
+
+#branding {
+    height: auto;
+    width: 15vw;
+}
+
+#styleguide {
+    height: auto;
+    width: 15vw;
+}
+
+#catalog_mobile {
+    height: auto;
+    width: 60vw;
+}
+
+p.text-right {
+    font-weight: bold;
+    font-size: 8vw;
+    margin-bottom: -3.4vw;
+}
+
+ul.navbar-nav {
+    padding-top: 220px;
+    font-size: 14px;
+    line-height: 133.69%;
+    letter-spacing: 0.2em;
+}
+
+a.nav-link, a.design_sub {
+    color: #767676;
+}
+
+a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
+    color: black;
+}
+
+a.design_sub {
+    font-size: 12px;
+    line-height: 133.69%;
+    letter-spacing: 0.2em;
+}
+
+#amy:hover, #amy:active {
+    color: black;
+}
+
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 52px;
+    letter-spacing: 0.1em;
+}
+
+#copyright {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    color: #4A4A4A;
+}
+
+footer {
+    padding-top: 30px;
+}
