@@ -8,6 +8,7 @@
     /*background-color: #E5E5E5; */
     background-color: rgb(200,200,200);
 }
+
 p {
     font-size: 12px;
     line-height: 7px;
@@ -43,9 +44,16 @@ p.paragraphDes {
     color: #4A4A4A;
 }
 
-.caption {
+figure {
+    display: inline-block;
+}
+
+figure img {
+    vertical-align: top;
+}
+
+figure figcaption {
     text-align: right;
-    margin-right: 3vw;
     font-family: SF Pro Text;
     font-style: italic;
     font-weight: 300;
@@ -53,6 +61,18 @@ p.paragraphDes {
     line-height: 155.19%;
     /* or 16px */
     color: #4A4A4A;
+}
+
+figure.weeds_figure {
+    margin-left: 10%;
+}
+
+figure.dating_figure {
+    margin-left: 15%;
+}
+
+.storyboard_img {
+    margin-left: 15%;
 }
 
 #catalog_cover {
@@ -123,32 +143,32 @@ p.paragraphDes {
 
 #lowfi_4 {
     height: auto;
-    width: 15vw;
+    width: 12vw;
 }
 
 #lowfi_5 {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #lowfi_6 {
     height: auto;
-    width: 15vw;
+    width: 12vw;
 }
 
 #lowfi_7 {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #lowfi_8 {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #lowfi_9 {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #desktop_1 {
@@ -171,19 +191,40 @@ p.paragraphDes {
     width: 35vw;
 }
 
+#researchGoals_header {
+    display: inline;
+    color: #A090CB;
+    background-color: white;
+}
+
+#designGoals_header {
+    display: inline;
+    color: #71ADD5;
+    background-color: white;
+}
+
 #branding {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #styleguide {
     height: auto;
-    width: 15vw;
+    width: 20vw;
 }
 
 #catalog_mobile {
     height: auto;
-    width: 60vw;
+    width: 64vw;
+    margin-left: 4%;
+}
+
+#dating_offset {
+    padding-top: 45px;
+}
+
+#finalDesktop_offset {
+    padding-top: 45px;
 }
 
 p.text-right {
@@ -220,10 +261,23 @@ a.design_sub {
 h1 {
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 155.19%;
+    /* or 62px */
+    letter-spacing: 0.08em; 
+    color: #000000;
+}
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 155.19%;
+    /* or 37px */
+    letter-spacing: 0.045em;
+    color: #000000;
 }
 
 #copyright {

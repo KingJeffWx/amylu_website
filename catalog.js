@@ -35,3 +35,7 @@ $(".responsive").hover(function() {
 }, function() {
     $(this).find(".responsive-text").hide();
 });
+
+$("#persona_1").click(function() {
+    $(this).css("width", "30vw");
+});
