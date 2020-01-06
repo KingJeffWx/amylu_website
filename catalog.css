@@ -5,8 +5,7 @@
 }
 
 #mainContent {
-    /*background-color: #E5E5E5; */
-    background-color: rgb(200,200,200);
+    background-color: #E5E5E5;
 }
 
 p {
@@ -73,6 +72,8 @@ figure.dating_figure {
 
 .storyboard_img {
     margin-left: 15%;
+    height: auto;
+    width: 20vw;
 }
 
 .personaPics {
@@ -83,37 +84,12 @@ figure.dating_figure {
 #catalog_cover {
     height: auto;
     width: 30vw;
-    margin-top: -100px;
+    margin-top: 45px;
 }
 
 .modal_L {
     height: auto;
     width: 100%;
-}
-
-#storyboard_1 {
-    height: auto;
-    width: 20vw;
-}
-
-#storyboard_2 {
-    height: auto;
-    width: 20vw;
-}
-
-#storyboard_3 {
-    height: auto;
-    width: 20vw;
-}
-
-#storyboard_4 {
-    height: auto;
-    width: 20vw;
-}
-
-#storyboard_5 {
-    height: auto;
-    width: 20vw;
 }
 
 #speeddate_1 {
@@ -217,6 +193,7 @@ figure.dating_figure {
     height: auto;
     width: 64vw;
     margin-left: 4%;
+    margin-top: 20px;
 }
 
 #dating_offset {
@@ -234,7 +211,7 @@ p.text-right {
 }
 
 ul.navbar-nav {
-    padding-top: 220px;
+    padding-top: 0px;
     font-size: 14px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
@@ -291,4 +268,129 @@ h2 {
 
 footer {
     padding-top: 30px;
+}
+
+#nextPage {
+    /*border: 1px solid black; */
+    text-align: right;
+}
+
+#nextText {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.19%;
+    /* or 25px */
+    color: #4A4A4A;
+}
+
+@media (max-width:768px) {
+    #catalog_cover {
+        height: auto;
+        width: 100%;
+        margin-top: 45px;
+    }
+
+    .personaPics {
+        height: auto;
+        width: 100%;
+    }
+
+    .storyboard_img {
+        margin-left: 0%;
+        height: auto;
+        width: 100%;
+    }
+
+    #speeddate_1 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #speeddate_2 {
+        height: auto;
+        width: 100%;
+    }
+
+    #lowfi_1 {
+        height: auto;
+        width: 49%;
+    }
+    
+    #lowfi_2 {
+        height: auto;
+        width: 49%;
+    }
+    
+    #lowfi_3 {
+        height: auto;
+        width: 100%;
+    }
+
+    #lowfi_4 {
+        height: auto;
+        width: 49%;
+    }
+    
+    #lowfi_5 {
+        height: auto;
+        width: 49%;
+    }
+    
+    #lowfi_6 {
+        height: auto;
+        width: 49%;
+    }
+    
+    #lowfi_7 {
+        height: auto;
+        width: 49%;
+    }
+
+    #lowfi_8 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #lowfi_9 {
+        height: auto;
+        width: 100%;
+    }
+
+    #branding {
+        height: auto;
+        width: 100%;
+    }
+    
+    #styleguide {
+        height: auto;
+        width: 100%;
+    }
+
+    #catalog_mobile {
+        height: auto;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #desktop_1 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #desktop_2 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #desktop_3 {
+        height: auto;
+        width: 100%;
+    }
+    
+    #desktop_4 {
+        height: auto;
+        width: 100%;
+    }
 }
