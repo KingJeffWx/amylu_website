@@ -8,6 +8,10 @@
     background-color: #E5E5E5;
 }
 
+div.col-md-6, div.col-md-12 {
+    padding-bottom: 25px;
+}
+
 p {
     font-size: 12px;
     line-height: 7px;
@@ -41,6 +45,22 @@ p.paragraphDes {
     font-size: 16px;
     line-height: 155.19%;
     color: #4A4A4A;
+}
+
+ul.sectionHeader {
+    list-style-type: square;
+    margin-left: -18px;
+}
+
+ul.sectionHeader li {
+    font-family: (Roboto);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 155.19%;
+    /* or 37px */
+    letter-spacing: 0.045em;
+    color: #000000;
 }
 
 figure {
