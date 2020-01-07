@@ -180,22 +180,22 @@ figure.dating_figure {
 
 #desktop_1 {
     height: auto;
-    width: 35vw;
+    width: 100%;
 }
 
 #desktop_2 {
     height: auto;
-    width: 35vw;
+    width: 100%;
 }
 
 #desktop_3 {
     height: auto;
-    width: 35vw;
+    width: 100%;
 }
 
 #desktop_4 {
     height: auto;
-    width: 35vw;
+    width: 100%;
 }
 /*
 #researchGoals_header {
@@ -222,7 +222,7 @@ figure.dating_figure {
 
 #catalog_mobile {
     height: auto;
-    width: 64vw;
+    width: 90%;
     margin-left: 4%;
     margin-top: 20px;
 }
@@ -232,7 +232,7 @@ figure.dating_figure {
 }
 
 #finalDesktop_offset {
-    padding-top: 45px;
+    padding-top: 0px;
 }
 
 p.text-right {
