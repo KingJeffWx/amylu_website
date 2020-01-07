@@ -5,7 +5,8 @@
 }
 
 #mainContent {
-    background-color: #E5E5E5;
+    background-color: #F6F6F6;
+    padding-top: 20px;
 }
 
 div.col-md-6, div.col-md-12 {
@@ -39,7 +40,7 @@ p.aboutTop2 {
 }
 
 p.paragraphDes {
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -73,7 +74,7 @@ figure img {
 
 figure figcaption {
     text-align: right;
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-style: italic;
     font-weight: 300;
     font-size: 10px;
@@ -278,7 +279,7 @@ h2 {
 }
 
 #copyright {
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -296,7 +297,7 @@ footer {
 }
 
 #nextText {
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

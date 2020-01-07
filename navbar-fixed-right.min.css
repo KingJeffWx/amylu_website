@@ -13,9 +13,11 @@ body {
     }
     ul.navbar-nav {
         padding-top: 10px;
+        background-color: white;
+        margin-left: 0%;
     }
     a.nav-link, a.design_sub {
         color: #767676;
-        margin-left: 77%;
+        margin-left: 5%;
     }
 }

@@ -29,15 +29,15 @@
 }
 
 #about_cover {
-    background-image: url("0-Amy-Lu.jpg");
+    background-image: url("amylu_cover.png");
 }
 
 .responsive {
     background-position: center;
-    height: calc(2.38vw * 6.0);
-    width: calc(3.35vw * 6.0);
+    height: calc(2.38vw * 6.6);
+    width: calc(3.35vw * 6.6);
     background-repeat: no-repeat;
-    background-size: auto 105%;
+    background-size: auto 108%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -53,7 +53,7 @@
 }
 
 .responsive:hover {    
-    background-size: auto 123%;
+    background-size: auto 125%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -77,7 +77,7 @@
 p.text-right {
     font-weight: bold;
     font-size: 8vw;
-    margin-bottom: -3.4vw;
+    margin-bottom: -3.0vw;
 }
 
 #Intro {
@@ -88,21 +88,25 @@ p.text-right {
     background-color:#ebf7ff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 30px;
+    padding-top: 20px;
 }
 
 #Research {
     background-color: #E9E2FD;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20px;
 }
 
 #Fashion {
     background-color: #FDE2F6;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20px;
 }
 
 #About {
     background-color: #EDF9EA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20px;
 }
 
 ul.navbar-nav {
@@ -150,7 +154,7 @@ h1 {
 }
 
 #copyright {
-    font-family: SF Pro Text;
+    font-family: "SF Pro Text";
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
