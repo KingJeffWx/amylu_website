@@ -34,8 +34,8 @@
 
 .responsive {
     background-position: center;
-    height: calc(2.38vw * 6.6);
-    width: calc(3.35vw * 6.6);
+    height: calc(2.38vw * 6.4);
+    width: calc(3.35vw * 6.4);
     background-repeat: no-repeat;
     background-size: auto 108%;
     -moz-transition: all 0.3s;
@@ -128,6 +128,7 @@ a.design_sub {
     font-size: 12px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
+    text-decoration: none;
 }
 
 #amy:hover, #amy:active {
