@@ -166,3 +166,17 @@ h1 {
 footer {
     padding-top: 30px;
 }
+
+@media (max-width:768px) {
+    .responsive {
+        height: 238px;
+        width: 335px;
+    }
+}
+
+@media (max-width:576px) {
+    .responsive {
+        height: calc(238px * 0.8);
+        width: calc(335px * 0.8);
+    }
+}
