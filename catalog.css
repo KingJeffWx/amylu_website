@@ -119,7 +119,7 @@ figure.dating_figure {
 
 .modal_L {
     height: auto;
-    width: 100vw;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -135,37 +135,40 @@ figure.dating_figure {
 
 #lowfi_1 {
     height: auto;
-    width: 15vw;
+    width: 14vw;
+    margin-right: 1.5vw;
 }
 
 #lowfi_2 {
     height: auto;
-    width: 15vw;
+    width: 14vw;
 }
 
 #lowfi_3 {
     height: auto;
-    width: 15vw;
+    width: 30vw;
 }
 
 #lowfi_4 {
     height: auto;
-    width: 12vw;
+    width: 13vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
 }
 
 #lowfi_5 {
     height: auto;
-    width: 20vw;
+    width: 32vw;
 }
 
 #lowfi_6 {
     height: auto;
-    width: 12vw;
+    width: 13vw;
 }
 
 #lowfi_7 {
     height: auto;
-    width: 20vw;
+    width: 32vw;
 }
 
 #lowfi_8 {
@@ -302,8 +305,8 @@ footer {
 }
 
 #nextPage {
-    /*border: 1px solid black; */
     text-align: right;
+    margin-right: -13%;
 }
 
 #nextText {
@@ -346,12 +349,12 @@ footer {
 
     #lowfi_1 {
         height: auto;
-        width: 49%;
+        width: 48%;
     }
     
     #lowfi_2 {
         height: auto;
-        width: 49%;
+        width: 48%;
     }
     
     #lowfi_3 {
@@ -361,22 +364,22 @@ footer {
 
     #lowfi_4 {
         height: auto;
-        width: 49%;
+        width: 48%;
     }
     
     #lowfi_5 {
         height: auto;
-        width: 49%;
+        width: 100%;
     }
     
     #lowfi_6 {
         height: auto;
-        width: 49%;
+        width: 48%;
     }
     
     #lowfi_7 {
         height: auto;
-        width: 49%;
+        width: 100%;
     }
 
     #lowfi_8 {
@@ -423,5 +426,9 @@ footer {
     #desktop_4 {
         height: auto;
         width: 100%;
+    }
+    #nextPage {
+        text-align: right;
+        margin-right: 0%;
     }
 }

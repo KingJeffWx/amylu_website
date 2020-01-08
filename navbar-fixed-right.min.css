@@ -11,6 +11,9 @@ body {
         height: 238px;
         width: 335px;
     }
+    body {
+        padding-top:45px
+    }
     ul.navbar-nav {
         padding-top: 10px;
         background-color: white;
