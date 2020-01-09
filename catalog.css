@@ -95,11 +95,13 @@ figure.dating_figure {
     margin-left: 15%;
     height: auto;
     width: 20vw;
+    cursor: zoom-in;
 }
 
 .personaPics {
     height: auto;
     width: 25vw;
+    cursor: zoom-in;
 }
 
 #catalog_cover {
@@ -121,16 +123,19 @@ figure.dating_figure {
     height: auto;
     width: 60vw;
     margin: auto;
+    cursor: zoom-out;
 }
 
 #speeddate_1 {
     height: auto;
     width: 20vw;
+    cursor: zoom-in;
 }
 
 #speeddate_2 {
     height: auto;
     width: 20vw;
+    cursor: zoom-in;
 }
 
 #lowfi_1 {
@@ -184,21 +189,25 @@ figure.dating_figure {
 #desktop_1 {
     height: auto;
     width: 100%;
+    cursor: zoom-in;
 }
 
 #desktop_2 {
     height: auto;
     width: 100%;
+    cursor: zoom-in;
 }
 
 #desktop_3 {
     height: auto;
     width: 100%;
+    cursor: zoom-in;
 }
 
 #desktop_4 {
     height: auto;
     width: 100%;
+    cursor: zoom-in;
 }
 /*
 #researchGoals_header {
@@ -216,11 +225,13 @@ figure.dating_figure {
 #branding {
     height: auto;
     width: 20vw;
+    cursor: zoom-in;
 }
 
 #styleguide {
     height: auto;
     width: 20vw;
+    cursor: zoom-in;
 }
 
 #catalog_mobile {
@@ -329,22 +340,26 @@ footer {
     .personaPics {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
 
     .storyboard_img {
         margin-left: 0%;
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
 
     #speeddate_1 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     
     #speeddate_2 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
 
     #lowfi_1 {
@@ -395,11 +410,13 @@ footer {
     #branding {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     
     #styleguide {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
 
     #catalog_mobile {
@@ -411,21 +428,25 @@ footer {
     #desktop_1 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     
     #desktop_2 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     
     #desktop_3 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     
     #desktop_4 {
         height: auto;
         width: 100%;
+        cursor: zoom-in;
     }
     #nextPage {
         text-align: right;

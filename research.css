@@ -10,22 +10,14 @@
 }
 
 h1 {
-    font-family: "Adobe Caslon Pro";
+    font-family: (Roboto);
     font-style: normal;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 155.19%;
-    /* or 68px */
+    /* or 62px */
     letter-spacing: 0.08em;
     color: #000000;
-}
-
-#cinnabonTitle {
-    background-image: url("cinnabon_header.png");
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-left: -25px;
-    margin-top: -20px;
-    padding-top: 30px;
 }
 
 div.col-md-2 {
@@ -84,69 +76,54 @@ p {
 }
 
 /* Images */
-#cinnabon_cover {
-    width: 20vw;
-    height: auto;
-}
-
-.compPics {
-    width: 30vw;
-    height: auto;
-    cursor: zoom-in;
-}
-
-#prototype1 {
-    width: 30vw;
-    height: auto;
-    cursor: zoom-in;
-}
-
-#prototype2 {
+#humancir_cover {
     width: 90%;
 }
 
-#prototype3 {
-    width: 90%;
-    height: auto;
+#project_definition {
+    width: 70%;
 }
 
-#cinnabon_process {
-    width: 25vw;
-    height: auto;
-    cursor: zoom-in;
-}
-
-#cinnabon_visual {
-    width: 90%;
-}
-
-#cinnabon_figma {
-    width: 90%;
-    height: auto;
-    cursor: zoom-in;
-}
-
-#cinnabon_final {
-    width: 90%;
-    height: auto;
-}
-
-#cinnabon_revision {
-    width: 90%;
-    height: auto;
-}
-
-#cinnabon_video {
-    width: 80%;
-    height: auto;
-}
-
-.codedPic {
-    width: 90%;
-    height: auto;
+#research_problem {
+    width: 70%;
 }
 
 /* Figures */
+
+#stakeholder {
+    width: 20vw;
+    cursor: zoom-in;
+}
+
+#customer {
+    width: 20vw;
+    cursor: zoom-in;
+}
+
+#bkgd {
+    width: 30vw;
+    cursor: zoom-in;
+}
+
+#walkthewall {
+    width: 30vw;
+    cursor: zoom-in;
+}
+
+.interviews {
+    width: 15vw;
+    cursor: zoom-in;
+}
+
+#affinity_diagram {
+    width: 80vw;
+    cursor: zoom-in;
+}
+
+#critique {
+    width: 30vw;
+    cursor: zoom-in;
+}
 
 .figure-caption {
     font-family: "SF Pro Text";
@@ -158,14 +135,34 @@ p {
     color: #4A4A4A;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    filter: invert(100%);
+/* Storyboard Collection */
+.swap-on-hover {
+    /*position: relative; */
+    margin:  0 auto;
+    max-width: 400px;
 }
 
-#cinnabon_javascript {
-    width: 30vw;
-    height: auto;
+.swap-on-hover_front-image, .swap-on-hover_back-image {
+    position: absolute;
+    top:0;
+    left:0;
+    overflow: hidden;
+    /* Sets the width and height for the images*/
+    width: 90%;
+}
+
+.swap-on-hover .swap-on-hover_front-image {
+    /*z-index: 9999;*/
+    transition: opacity .5s linear;
     cursor: zoom-in;
+}
+
+.swap-on-hover:hover > .swap-on-hover_front-image{
+    opacity: 0;
+}  
+
+.storyboard_filler {
+    margin-bottom: 180px;
 }
 
 /* Modal */
@@ -230,26 +227,14 @@ footer {
 }
 
 @media (max-width:768px) {
-    #prototype1 {
-        width: 90%;
-        height: auto;
-        cursor: zoom-in;
-    }
-
-    #cinnabon_process {
-        width: 90%;
-        height: auto;
-        cursor: zoom-in;
-    }
-
-    #cinnabon_javascript {
-        width: 90%;
-        height: auto;
-        cursor: zoom-in;
-    }
     #nextPage {
         text-align: right;
         margin-right: 0%;
     }
-    
+    .col-md-3.storyboard {
+        padding-bottom: 300px;
+    }
+    .storyboard_filler {
+        margin-bottom: 0px;
+    }
 }
