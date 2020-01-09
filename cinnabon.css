@@ -94,7 +94,58 @@ p {
     height: auto;
 }
 
+#prototype1 {
+    width: 30vw;
+    height: auto;
+}
+
+#prototype2 {
+    width: 90%;
+    height: auto;
+}
+
+#prototype3 {
+    width: 90%;
+    height: auto;
+}
+
+#cinnabon_process {
+    width: 25vw;
+    height: auto;
+}
+
+#cinnabon_visual {
+    width: 90%;
+    height: auto;
+}
+
+#cinnabon_figma {
+    width: 90%;
+    height: auto;
+}
+
+#cinnabon_final {
+    width: 90%;
+    height: auto;
+}
+
+#cinnabon_revision {
+    width: 90%;
+    height: auto;
+}
+
+#cinnabon_video {
+    width: 80%;
+    height: auto;
+}
+
+.codedPic {
+    width: 90%;
+    height: auto;
+}
+
 /* Figures */
+
 .figure-caption {
     font-family: "SF Pro Text";
     font-style: italic;
@@ -107,6 +158,11 @@ p {
 
 .carousel-control-next, .carousel-control-prev {
     filter: invert(100%);
+}
+
+#cinnabon_javascript {
+    width: 30vw;
+    height: auto;
 }
 
 /* Modal */
