@@ -226,8 +226,23 @@ footer {
 }
 
 @media (max-width:768px) {
+    #prototype1 {
+        width: 90%;
+        height: auto;
+    }
+
+    #cinnabon_process {
+        width: 90%;
+        height: auto;
+    }
+
+    #cinnabon_javascript {
+        width: 90%;
+        height: auto;
+    }
     #nextPage {
         text-align: right;
         margin-right: 0%;
     }
+    
 }
