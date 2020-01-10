@@ -81,7 +81,26 @@ p {
 }
 
 #project_definition {
+    position: relative;
+}
+
+#project_definition_image {
     width: 70%;
+}
+
+
+#project_definition_text {
+    position: absolute;
+    top: 0%;
+    left: 21%;
+    width: 48%;
+    height: 100%;
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 90%;
+    line-height: 155.19%;
+    color: #4A4A4A;
 }
 
 #research_problem {
@@ -91,12 +110,12 @@ p {
 /* Figures */
 
 #stakeholder {
-    width: 20vw;
+    width: 13vw;
     cursor: zoom-in;
 }
 
 #customer {
-    width: 20vw;
+    width: 18vw;
     cursor: zoom-in;
 }
 
@@ -121,7 +140,22 @@ p {
 }
 
 #critique {
-    width: 30vw;
+    width: 32vw;
+    cursor: zoom-in;
+}
+
+.prototype {
+    width: 32vw;
+    cursor: zoom-in;
+}
+
+#finalposter {
+    width: 32vw;
+    cursor: zoom-in;
+}
+
+#team {
+    width: 32vw;
     cursor: zoom-in;
 }
 
@@ -227,6 +261,43 @@ footer {
 }
 
 @media (max-width:768px) {
+    /* Figures */
+    #stakeholder {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #customer {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #bkgd {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #walkthewall {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    .interviews {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #critique {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    .prototype {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #finalposter {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+    #team {
+        width: 90vw;
+        cursor: zoom-in;
+    }
     #nextPage {
         text-align: right;
         margin-right: 0%;
