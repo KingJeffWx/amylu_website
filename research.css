@@ -85,7 +85,7 @@ p {
 }
 
 #project_definition_image {
-    width: 70%;
+    width: 100%;
 }
 
 
@@ -303,7 +303,7 @@ footer {
         margin-right: 0%;
     }
     .col-md-3.storyboard {
-        padding-bottom: 300px;
+        padding-bottom: 200px;
     }
     .storyboard_filler {
         margin-bottom: 0px;

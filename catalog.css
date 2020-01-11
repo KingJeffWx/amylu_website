@@ -106,7 +106,7 @@ figure.dating_figure {
 
 #catalog_cover {
     height: auto;
-    width: 30vw;
+    width: 90%;
     margin-top: 45px;
 }
 
@@ -140,40 +140,37 @@ figure.dating_figure {
 
 #lowfi_1 {
     height: auto;
-    width: 14vw;
-    margin-right: 1.5vw;
+    width: 40%;
 }
 
 #lowfi_2 {
     height: auto;
-    width: 14vw;
+    width: 40%;
 }
 
 #lowfi_3 {
     height: auto;
-    width: 30vw;
+    width: 90%;
 }
 
 #lowfi_4 {
     height: auto;
-    width: 13vw;
-    margin-left: 1.5vw;
-    margin-right: 1.5vw;
+    width: 40%;
 }
 
 #lowfi_5 {
     height: auto;
-    width: 32vw;
+    width: 90%;
 }
 
 #lowfi_6 {
     height: auto;
-    width: 13vw;
+    width: 40%;
 }
 
 #lowfi_7 {
     height: auto;
-    width: 32vw;
+    width: 90%;
 }
 
 #lowfi_8 {

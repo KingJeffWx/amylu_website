@@ -148,20 +148,20 @@ p {
 
 /* Figures */
 #viz10 {
-    width: 30vw;
+    width: 100%;
     cursor: zoom-in;
 }
 #viz10a {
-    width: 30vw;
+    width: 100%;
     cursor: zoom-in;
 }
 #viz10b {
-    width: 30vw;
+    width: 100%;
     cursor: zoom-in;
 }
 
 #privacy_grade {
-    width: 25vw;
+    width: 100%;
     cursor: zoom-in;
 }
 
