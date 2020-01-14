@@ -19,7 +19,7 @@
                 <!-- Main Content -->
                 <div class="container" id="mainContent">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <h1>Who knows What about us and Why?</h1>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                         </div> 
                     </div>
                     <!-- Project Overview -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>Project Overview</li>
@@ -44,20 +44,20 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <p>In the fall semester I worked with Professor Jason Hong and undergraduate student Rosie Sun on the redesign and implementation of the website ‘Android Network Traces’, a project under CHIMPS (Computer Human Interaction: Mobility, Privacy, Security) at CMU.</p>
-                            <p>My role was to redesign the visual interface of the website and to better display the results of the data collected by Android smartphone apps. Our goal was to help everyday people understand what data an app might collect about them, where they send the data to and why.</p>
-                            <p>Our first steps was a heuristic evaluation of the current website, followed by initial brainstorming of the data visualizations, user testing, and more iterations.</p>
-                            <p>Finally, we are aiming for deployment of the web site in January 2020. My biggest takeaway and challenge was learning about how to use data visualization to present information that was clear and informative. It was difficult to create visually interesting visualizations as I started with a very linear graph. But after tons of iterations, I arrived at a visualization that was engaging and interesting.</p>
+                            <p class="ml-4">In the fall semester I worked with Professor Jason Hong and undergraduate student Rosie Sun on the redesign and implementation of the website ‘Android Network Traces’, a project under CHIMPS (Computer Human Interaction: Mobility, Privacy, Security) at CMU.</p>
+                            <p class="ml-4">My role was to redesign the visual interface of the website and to better display the results of the data collected by Android smartphone apps. Our goal was to help everyday people understand what data an app might collect about them, where they send the data to and why.</p>
+                            <p class="ml-4">Our first steps was a heuristic evaluation of the current website, followed by initial brainstorming of the data visualizations, user testing, and more iterations.</p>
+                            <p class="ml-4">Finally, we are aiming for deployment of the web site in January 2020. My biggest takeaway and challenge was learning about how to use data visualization to present information that was clear and informative. It was difficult to create visually interesting visualizations as I started with a very linear graph. But after tons of iterations, I arrived at a visualization that was engaging and interesting.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="ant_cover.png" class="mx-auto d-block" id="ant_cover">
                         </div>
                     </div>
                     <!-- Heuristic Evaluation -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
-                                <li>Heuristic Evaluation</li>
+                                <li class="mb-4">Heuristic Evaluation</li>
                             </ul>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                         <img src="information_architecture.png" class="mx-auto d-block" id="information_architecture">
                     </div>
                     <!-- What kind of questions are we answering with our website? -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md-6">
                             <ul class="sectionHeader">
                                 <li>What kind of questions are we answering with our website?</li>
@@ -139,7 +139,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <p>To make sure our redesign addresses the right questions, we started off reading papers, articles, familiarizing ourselves with data privacy and security. We read the <a href="mobipurpose_ubicomp.pdf">Mobipurpose</a> paper by Haojian Jin, a PhD student at CMU whose paper served as the source for the data used in this website.</p>
+                            <p class="ml-4">To make sure our redesign addresses the right questions, we started off reading papers, articles, familiarizing ourselves with data privacy and security. We read the <a href="mobipurpose_ubicomp.pdf">Mobipurpose</a> paper by Haojian Jin, a PhD student at CMU whose paper served as the source for the data used in this website.</p>
                         </div>
                         <div class="col-md-6">
                                 <div class="websiteQuestions">1. What apps are collecting xxxx (some data)? What are they collecting it for?</div><br>
@@ -150,31 +150,31 @@
                         </div>
                     </div>
                     <!-- Design Goals -->
-                    <div class="row">
-                        <img src="design_goals.svg">
+                    <div class="row mt-5">
+                        <img class="mb-4"src="design_goals.svg">
                     </div>
                     <div class="row">
                         <ol>
-                            <li class="my-2">Better data visualization to answer the questions people might have about their data: why do apps collect their data and why.</li>
-                            <li class="my-2">Homepage need to explain what’s the purpose of the site presenting some interesting insights/findings.</li>
-                            <li class="my-2">Show how we analyzed/classified the data.</li>
-                            <li class="my-2">Integrate our site stylistically with Privacy Grade.</li>
+                            <li class="my-3 list">Better data visualization to answer the questions people might have about their data: why do apps collect their data and why.</li>
+                            <li class="my-3 list">Homepage need to explain what’s the purpose of the site presenting some interesting insights/findings.</li>
+                            <li class="my-3 list">Show how we analyzed/classified the data.</li>
+                            <li class="my-3 list">Integrate our site stylistically with Privacy Grade.</li>
                         </ol>
                     </div>
                     <!-- Many Ways to Visualize Information -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>Many Ways to Visualize Information</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-4">
                         <div class="col-md-6">
-                            <p>Having answered the above questions in our research was critical as it provided a concrete starting point for the redesign.</p>
-                            <p>My data visualizations needed to be able to answer the questions above along with the ability to filter by data type, company, app, and show a congregated view of how data is being collected and sent. I began the process with loose brainstorming on how the visualizations could be presented.</p>
-                            <p>I separated the data viz into 2 views, where in one view I show the top 5 apps, and in another I show the top 5 data types. As user click on a view, the information will change and expand to show greater detail. I received some feedback regarding view 4 and 5. Users felt that view 4 is more visual, yet the multiple sized clouds are confusing, and it’s not clear why the data types are sized differently. But it is easier to consume and understand view 5, which had repeating data icons.</p>
-                            <p>I continued to iterate on this view (5) which is the top 5 apps, based on user feedback while brainstorming the other views (6-9).</p>
+                            <p class="ml-4">Having answered the above questions in our research was critical as it provided a concrete starting point for the redesign.</p>
+                            <p class="ml-4">My data visualizations needed to be able to answer the questions above along with the ability to filter by data type, company, app, and show a congregated view of how data is being collected and sent. I began the process with loose brainstorming on how the visualizations could be presented.</p>
+                            <p class="ml-4">I separated the data viz into 2 views, where in one view I show the top 5 apps, and in another I show the top 5 data types. As user click on a view, the information will change and expand to show greater detail. I received some feedback regarding view 4 and 5. Users felt that view 4 is more visual, yet the multiple sized clouds are confusing, and it’s not clear why the data types are sized differently. But it is easier to consume and understand view 5, which had repeating data icons.</p>
+                            <p class="ml-4">I continued to iterate on this view (5) which is the top 5 apps, based on user feedback while brainstorming the other views (6-9).</p>
                         </div>
                         <div class="col-md-3 viz">
                             <h3>Top 5 Apps</h3>
@@ -263,11 +263,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-4">
                         <div class="col-md-6">
-                            <p>Iteration 6 was the adequate in conveying the information. I adjusted color and information so it’s easier to digest. But stilll I wasn’t satisfied with it as I received multiple comments from people that the middle part felt too distracting as they are tracing the path of the data with their eyes. So I brainstormed other ways that could be more visual.</p>
-                            <p>In this final 10th iteration, I was quite happy with the result. Instead of splitting the views into 2, I used a tree-map view to display the data the top 5 apps are sending to the clouds. As the user click on a cloud, they can view detailed information such as the exact address of where their data is going.</p>
-                            <p>Right now I have two versions for detailed cloud view. Will conduct user testing to see which one users prefer.</p>
+                            <p class="ml-4">Iteration 6 was the adequate in conveying the information. I adjusted color and information so it’s easier to digest. But stilll I wasn’t satisfied with it as I received multiple comments from people that the middle part felt too distracting as they are tracing the path of the data with their eyes. So I brainstormed other ways that could be more visual.</p>
+                            <p class="ml-4">In this final 10th iteration, I was quite happy with the result. Instead of splitting the views into 2, I used a tree-map view to display the data the top 5 apps are sending to the clouds. As the user click on a cloud, they can view detailed information such as the exact address of where their data is going.</p>
+                            <p class="ml-4">Right now I have two versions for detailed cloud view. Will conduct user testing to see which one users prefer.</p>
                         </div>
                         <div class="col-md-6">
                             <figure class="figure mx-auto">
@@ -324,8 +324,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <p>I create a style guide based on Privacy Grade’s website to guide our site’s redesign. Since the our site is a subside to Privacy Grade, our Professor wanted us to make sure the styles matched.</p>
-                            <p>I also created original graphics to be used on the Homepage using Adobe Illustrator, see image below:</p>
+                            <p class="ml-4">I create a style guide based on Privacy Grade’s website to guide our site’s redesign. Since the our site is a subside to Privacy Grade, our Professor wanted us to make sure the styles matched.</p>
+                            <p class="ml-4">I also created original graphics to be used on the Homepage using Adobe Illustrator, see image below:</p>
                         </div>
                         <div class="col-md-6">
                             <figure class="figure mx-auto">
@@ -370,14 +370,14 @@
                         </div>
                     </div>
                     <!-- Home Redesign -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>Home Redesign</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-4">
                         <div class="col-md-6" style="text-align:center;">
                             <img src="home_1.png" class="figure-img img-fluid" id="homePic1" data-toggle="modal" data-target="#home1_enlarged">
                             <div class="modal fade" id="home1_enlarged">
@@ -416,7 +416,7 @@
                         </div>
                     </div>
                     <!-- More Design Tweaks Needed -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md-6">
                             <ul class="sectionHeader">
                                 <li>More Design Tweaks Needed</li>
@@ -425,8 +425,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <p>The final callout from our Professor was having a few more examples of Top Queries, perhaps 3 more of them in 2 rows, to make it easier for people to explore the site and get a better sense as to the kinds of questions the site can answer.</p>
-                            <p>I also designed an individual app page for when the user searches for a particular app, they can view what data the app (Twitter) collects and sends to. The callout for this was to design the individual app page so that it will feel more stylistically aligned to the main diagram. The technical constraint though, was to make it a tabular view so that the information can be easily populated for the hundreds of apps on the site, versus hand-coding each one on the homepage.</p>
+                            <p class="ml-4">The final callout from our Professor was having a few more examples of Top Queries, perhaps 3 more of them in 2 rows, to make it easier for people to explore the site and get a better sense as to the kinds of questions the site can answer.</p>
+                            <p class="ml-4">I also designed an individual app page for when the user searches for a particular app, they can view what data the app (Twitter) collects and sends to. The callout for this was to design the individual app page so that it will feel more stylistically aligned to the main diagram. The technical constraint though, was to make it a tabular view so that the information can be easily populated for the hundreds of apps on the site, versus hand-coding each one on the homepage.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="tweaks_1.png" class="mx-auto d-block tweaks">
@@ -488,20 +488,20 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#" id="nav1">DESIGN</a>
                                 <ul class="list-unstyled" id="nav1_sub">
-                                    <li class="my-2"> <a class="design_sub">&nbsp; - Who knows what about us and why?</a></li>
-                                    <li class="my-2"> <a class="design_sub">&nbsp; - cat-a-log</a> </li>
-                                    <li class="my-2"> <a class="design_sub">&nbsp; - Junto</a> </li>
-                                    <li class="my-2"> <a class="design_sub">&nbsp; - cinnabon</a></li>
+                                    <li class="my-2"> <a class="design_sub" href="knows.html">&nbsp; - Who knows what about us and why?</a></li>
+                                    <li class="my-2"> <a class="design_sub" href="catalog.html">&nbsp; - cat-a-log</a> </li>
+                                    <li class="my-2"> <a class="design_sub" href="junto.html">&nbsp; - Junto</a> </li>
+                                    <li class="my-2"> <a class="design_sub" href="cinnabon.html">&nbsp; - cinnabon</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" id="nav2">RESEARCH</a>
+                                <a class="nav-link" href="research.html" id="nav2">RESEARCH</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" id="nav3">FASHION</a>
+                                <a class="nav-link" href="fashion.html" id="nav3">FASHION</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" id="nav4">ABOUT ME</a>
+                                <a class="nav-link" href="about.html" id="nav4">ABOUT ME</a>
                             </li>
                         </ul>
                     </div>
