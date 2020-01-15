@@ -130,18 +130,24 @@ a.design_sub {
     letter-spacing: 0.2em;
     text-decoration: none;
 }
-
+#amy {
+    color: #71ADD5;
+}
 #amy:hover, #amy:active {
-    color: black;
+    color: #000;
+    text-decoration: none;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 44px;
-    line-height: 52px;
-    letter-spacing: 0.1em;
+    font-weight: bold;
+font-size: 100px;
+line-height: 131.69%;
+/* or 132px */
+letter-spacing: -0.045em;
+
+color: rgba(113, 173, 213, 0.5);
 }
 
 .whoIsAmy {

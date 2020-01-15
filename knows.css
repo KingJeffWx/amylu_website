@@ -3,9 +3,12 @@
     font-style: normal;
     font-weight: normal;
     line-height: 155.19%;
+    letter-spacing: 0.04em;
     font-size: 14px;
 }
-
+/* .row {
+    margin-right: -50px;
+} */
 #mainContent {
     background-color: #F6F6F6;
     padding-top: 20px;
@@ -28,25 +31,38 @@ h3 {
     font-weight: bold;
     font-size: 14px;
     line-height: 155.19%;
+
     /* or 22px */
     color: #4A4A4A;
     text-align: center;
 }
 
-div.col-md-3 {
+.h2-heading {
+    font-family: 'SF Pro Text', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 31px;
+letter-spacing: 0.04em;
+/* or 31px */
+
+
+color: #000000;
+}
+/* div.col-md-3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 155.19%;
     /* or 17px */
-    letter-spacing: 0.015em;
+    /* letter-spacing: 0.015em; */
     color: #4A4A4A;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* margin-bottom: 100px; */
-}
+} 
 
-div.col-md-9 {
+/* div.col-md-9 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -54,9 +70,9 @@ div.col-md-9 {
     line-height: 155.19%;
     /* or 19px */
     color: #4A4A4A;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     /* margin-bottom: 100px; */
-}
+} 
 
 div.col-md-6, div.col-md-12 {
     /* padding-bottom: 25px; */
@@ -82,10 +98,11 @@ ul.sectionHeader li {
 p, .list {
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 155.19%;
-    color: #4A4A4A;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #444;
 }
 
 /* Carousel */
@@ -125,21 +142,29 @@ p, .list {
     width: 90%;
     cursor: zoom-in;
 }
+#homePic0 {
+    width: 100%;
+    cursor: zoom-in;
+}
 
 #homePic1 {
-    width: 35%;
+    width: 50%;
     cursor: zoom-in;
 }
 #homePic2 {
-    width: 54%;
+    width: 80%;
     cursor: zoom-in;
 }
 #homePic3 {
-    width: 40%;
+    width: 60%;
     cursor: zoom-in;
 }
 #homePic4 {
-    width: 43%;
+    width: 65%;
+    cursor: zoom-in;
+}
+#homePic5 {
+    width: 45%;
     cursor: zoom-in;
 }
 
@@ -162,7 +187,7 @@ p, .list {
 }
 
 #privacy_grade {
-    width: 60%;
+    width: 100%;
     cursor: zoom-in;
 }
 
