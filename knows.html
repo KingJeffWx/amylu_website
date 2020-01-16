@@ -10,66 +10,98 @@
     <link rel="stylesheet" href="knows.css">
     <link rel="stylesheet" href="navbar-fixed-right.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+    <title>Who knows What about us and Why?</title>
   </head>
   <body>
+  
     <div class="container-fluid" style="padding-top:30px;">
         <div class="row">
-            <div class="col-md-11">
-                <!-- Main Content -->
-                <div class="container mx-auto" id="mainContent">
-                    <div class="row">
-                        <div class="col-md-12">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-9">
+                <!-- Title -->
+                <!-- <div class="container mx-auto" id="mainContent"> -->
+                    <div class="row mt-5">
+                        <div class="col-md ml-4">
                             <h1>Who knows What about us and Why?</h1>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-4 h2-heading ml-4">
-                            Data visualization and web redesign to showcase what data third parties are collecting about us and why.
-                        </div>
-                        <div class="col-md-4">
-                            <b>Time</b> Oct - Dec 2019<br>
-                            &nbsp;<b>Role</b>Data Visualization (Illustrator)<br>
-                            &emsp;&emsp;&emsp;Web Design + Illustration (Illustrator)<br>
-                            <b>Team</b>Rosie Sun<br>
-                        </div> 
-                    </div>
 
-                    <!-- Project Background -->
+                    <!--Intro-->
+                    <div class="row">
+                        <div class="col-md-5 h2-heading ml-4 mt-5 pt-3">
+                            Data visualization and web redesign to showcase what data third parties are collecting about us and why.
+                            <div class="row">
+                                <div class="col-3 mt-5">
+                                    <p>Time</p>
+                                    <p>Role</p>
+                                    <br>
+                                    <br>
+                                    <br>
+                            
+                                    <p>Team</p>
+                                    
+                                </div>
+                                <div class="col-9 mt-5">
+                                    <p>Oct - Dec 2019</p>
+                                    <p>Data Visualization </p>
+                                    <p>Web Design </p>
+                                    <p>Illustration</p>
+                                    <p>Rosie Sun (Implementation)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 mt-5 pt-3">
+                            <img src="chromemockup.png" class="mx-auto d-block" id="ant_cover">
+                        </div>
+                    </div>
+                    <div class="container mx-auto" id="mainContent">
+                    
+                        <!-- Project Background -->
                     <div class="row mt-5">
-                        <div class="col-md">
+                        <div class="col-md mt-4">
                             <ul class="sectionHeader">
                                 <li>Project Background</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-5">
                             <p class="ml-4">In the fall semester I worked with Professor Jason Hong and undergraduate student Rosie Sun on the redesign and implementation of the website ‘Android Network Traces’, a project under CHIMPS (Computer Human Interaction: Mobility, Privacy, Security) at CMU. </p>
-                            <ul class="sectionHeader">
+                            <ul class="sectionHeader mt-5">
                                 <li>My Role</li>
                             </ul>
                             
-                            <p class="ml-4 h2-heading">My role was to redesign the visual interface of the website and to better display the results of the data collected by Android smartphone apps. Our goal was to help everyday people understand what data an app might collect about them, where they send the data to and why.</p>
-                            <p class="ml-4">The redesigned visualization should help everyday people understand what data an app might collect about them, where they send the data to and why.
-                            </p>
+                            <p class="ml-4 pt-3">My role was to redesign the visual interface of the website and to better display the results of the data collected by Android smartphone apps. Our goal was to help everyday people understand what data an app might collect about them, where they send the data to and why.</p>
+                           
     
                         </div>
                         <div class="col-md-6">
-                            <img src="ant_cover.png" class="mx-auto d-block" id="ant_cover">
+                            <img src="" class="mx-auto d-block" id="ant_cover">
                         </div>
                     </div>
                     <!-- Heuristic Evaluation -->
                     <div class="row mt-5">
-                        <div class="col-md-5">
+                        <div class="col-md-7">
                             <ul class="sectionHeader">
                                 <li class="mb-4">First Steps: Evaluating the Current Website using Heuristic Evaluation</li>
                             </ul>
                         </div>
                     </div>
-                    <!--- Carousel -->
-                    <div id="knowsCarousel" class="carousel slide mx-auto" data-ride="carousel">
+                
+                    <div class="row mt-3">
+                        <div class="col-md-5">
+                            <p class="ml-4">The Heuristic Evaluation discovered a lack of clean and functional design.</p>
+                            <p class="ml-4">Certain pages were overly cluttered, and lots of information were repeated, thus preventing the user from easily finding the information that is pertinent to them.  </p>
+                        </div>
+                    
+                      <!--- Carousel -->
+                    <div id="knowsCarousel" class="carousel slide mx-auto col-md-7" data-ride="carousel">
+                        
                         <div class="carousel-inner">
+                            
                             <div class="carousel-item active">
                                 <img src="he_1.png" class="he_image" data-toggle="modal" data-target="#he1_enlarged">
                                 <div class="modal fade" id="he1_enlarged">
@@ -79,6 +111,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="carousel-item">
                                 <img src="he_2.png" class="he_image" data-toggle="modal" data-target="#he2_enlarged">
                                 <div class="modal fade" id="he2_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -87,6 +122,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="carousel-item">
                                 <img src="he_3.png" class="he_image" data-toggle="modal" data-target="#he3_enlarged">
                                 <div class="modal fade" id="he3_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -96,6 +134,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="carousel-item">
                                 <img src="he_4.png" class="he_image" data-toggle="modal" data-target="#he4_enlarged">
                                 <div class="modal fade" id="he4_enlarged">
@@ -105,6 +144,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="carousel-item">
                                 <img src="he_5.png" class="he_image" data-toggle="modal" data-target="#he5_enlarged">
                                 <div class="modal fade" id="he5_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -113,6 +155,9 @@
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="carousel-item">
                                 <img src="he_6.png" class="he_image" data-toggle="modal" data-target="#he6_enlarged">
                                 <div class="modal fade" id="he6_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -122,6 +167,7 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <a class="carousel-control-prev" href="#knowsCarousel" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -132,8 +178,9 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                </div>
                     <!-- Problems We Found -->
-                    <div class="row mt-5">
+                    <div class="row mt-5 pt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>Problems We Found:</li>
@@ -209,15 +256,23 @@
                         
                     <!-- Data Visualization: What kind of questions are we answering with our website? -->
                     <div class="row mt-5">
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                             <ul class="sectionHeader">
                                 <li>Data Visualization: What kind of questions are we answering with our website?</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-5">
-                            <p class="ml-4">After establishing the problems, I need to tackle the data visualization. To make sure our redesign addresses the right questions, we started off reading papers, articles, familiarizing ourselves with data privacy and security. We read the <a href="mobipurpose_ubicomp.pdf">Mobipurpose</a> paper by Haojian Jin, a PhD student at CMU whose paper served as the source for the data used in this website.</p>
+                            <p class="ml-4">After establishing the problems, I need to tackle the data visualization. </p>
+                            
+                            <p class="ml-4">
+                                To make sure our redesign addresses the right questions, we started off reading papers, articles, familiarizing ourselves with data privacy and security.   
+                            </p>
+        
+                            <p class="ml-4">We read the <a href="mobipurpose_ubicomp.pdf">Mobipurpose</a> paper by Haojian Jin, a PhD student at CMU whose paper served as the source for the data used in this website.
+
+                            </p>
                         </div>
                         <div class="col-md-6">
                                 <div class="websiteQuestions">1. What apps are collecting xxxx (some data)? What are they collecting it for?</div><br>
@@ -229,22 +284,23 @@
                     </div>
                     
                     <!-- My Approach in Visualizing Information -->
-                    <div class="row mt-5">
+                    <div class="row mt-5 pt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>My Approach in Visualizing the Data.</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row mt-4">
+                    <div class="row mt-3">
                         <div class="col-md-5">
-                            <p class="ml-4 h2-heading pb-4">The new data visualizations needed to be able to answer the questions above along with the ability to filter by data type, company, app, and show a congregated view of how data is being collected and sent. I began the process with loose brainstorming on how the visualizations could be presented.</p>
-                            <p class="ml-4">I separated the data viz into 2 views, where in one view I show the top 5 apps, and in another I show the top 5 data types. As user click on a view, the information will change and expand to show greater detail. I received some feedback regarding view 4 and 5. Users felt that view 4 is more visual, yet the multiple sized clouds are confusing, and it’s not clear why the data types are sized differently. But it is easier to consume and understand view 5, which had repeating data icons.</p>
-                            <p class="ml-4">I continued to iterate on this view (5) which is the top 5 apps, based on user feedback while brainstorming the other views (6-9).</p>
+                            <p class="ml-4">I separated the data viz into 2 views, where in one view I show the top 5 apps, and in another I show the top 5 data types. 
+                            </p>
+                            <p class="ml-4">I received some feedback regarding view 4 and 5. Users felt that view 4 is more visual, yet the multiple sized clouds are confusing, and it’s not clear why the data types are sized differently. But it is easier to consume and understand view 5, which had many repeated data icons.</p>
+                            <p class="ml-4">I continued to iterate on view 5 based on user feedback while brainstorming the other views (6-9).</p>
                         </div>
                         <div class="col-md-3 viz">
                             <h3>Top 5 Apps</h3>
-                            <img src="viz_1_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz1_enlarged">
+                            <img src="viz_1_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz1_enlarged">
                             <div class="modal fade" id="viz1_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -252,7 +308,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_3_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz3_enlarged">
+                            <img src="viz_3_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz3_enlarged">
                             <div class="modal fade" id="viz3_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -260,7 +316,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_5_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz5_enlarged">
+                            <img src="viz_5_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz5_enlarged">
                             <div class="modal fade" id="viz5_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -268,7 +324,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_7_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz7_enlarged">
+                            <img src="viz_7_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz7_enlarged">
                             <div class="modal fade" id="viz7_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -279,7 +335,7 @@
                         </div>
                         <div class="col-md-3 viz">
                             <h3>Top 5 Data Types</h3>
-                            <img src="viz_2_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz2_enlarged">
+                            <img src="viz_2_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz2_enlarged">
                             <div class="modal fade" id="viz2_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -287,7 +343,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_4_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz4_enlarged">
+                            <img src="viz_4_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz4_enlarged">
                             <div class="modal fade" id="viz4_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -295,7 +351,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_6_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz6_enlarged">
+                            <img src="viz_6_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz6_enlarged">
                             <div class="modal fade" id="viz6_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -303,7 +359,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_8_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz8_enlarged">
+                            <img src="viz_8_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz8_enlarged">
                             <div class="modal fade" id="viz8_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -311,7 +367,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <img src="viz_9_thumbnail.png" class="mx-auto d-block viz_thumb" data-toggle="modal" data-target="#viz9_enlarged">
+                            <img src="viz_9_thumbnail.png" class="mx-auto d-block viz_thumb pb-2" data-toggle="modal" data-target="#viz9_enlarged">
                             <div class="modal fade" id="viz9_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
@@ -322,7 +378,7 @@
                         </div>
                     </div>
                     <!-- The 10th Iteration -->
-                    <div class="row">
+                    <div class="row mt-5">
                         <div class="col-md">
                             <ul class="sectionHeader">
                                 <li>The 10th Iteration</li>
@@ -331,10 +387,8 @@
                     </div>
                     <div class="row mt-4">
                         <div class="col-md-5">
-                            <p class="ml-4 h2-heading pb-4">The 10th iteration uses a brushing and linking method by combining two views into one, enabling users to explore details within the dataset. </p>
-                            <p class="ml-4">Iteration 6 was the adequate in conveying the information. I adjusted color and information so it’s easier to digest. But stilll I wasn’t satisfied with it as I received multiple comments from people that the middle part felt too distracting as they are tracing the path of the data with their eyes. So I brainstormed other ways that could be more visual.</p>
-                            <p class="ml-4">In this final 10th iteration, I was quite happy with the result. Instead of splitting the views into 2, I used a tree-map view to display the data the top 5 apps are sending to the clouds. As the user click on a cloud, they can view detailed information such as the exact address of where their data is going.</p>
-                            <p class="ml-4">Right now I have two versions for detailed cloud view. Will conduct user testing to see which one users prefer.</p>
+                            <p class="ml-4">The final iteration used a brushing and linking method that combined two views into one, enabling users to explore details within the dataset. </p>
+                            <p class="ml-4">Instead of splitting the views into 2, I used a tree-map view to display the data of what the top 5 apps are sending to the clouds. As the user click on a cloud, they can view detailed information such as the exact address of where their data is going. </p>
                         </div>
                         <div class="col-md-1">
 
@@ -351,7 +405,7 @@
                                 </div>
                                 <figcaption class="figure-caption text-right">Main Visualization</figcaption>
                             </figure>
-                            <video src="video.mov" id="knows_video" controls></video>
+                            <video src="ant_vid.mov" id="knows_video" controls autoplay></video>
                         </div>
                     </div>
                  
@@ -366,8 +420,8 @@
                     </div>
                     <div class="row">
                         <div class="col-md-5">
-                            <p class="ml-4 mt-4">I create a style guide based on Privacy Grade’s website to guide our site’s redesign. Since the our site is a subside to Privacy Grade, our Professor wanted us to make sure the styles matched.</p>
-                            <p class="ml-4">I also created original graphics to be used on the Homepage using Adobe Illustrator, see image below:</p>
+                            <p class="ml-4 mt-4">I create a style guide based off of Privacy Grade’s website to guide the style of our site. Since our site is a subside to Privacy Grade, our Professor wanted to make sure the styles of the two sites matched.</p>
+                            <p class="ml-4">I also created original graphics in Adobe Illustrator, potentially to be used on the Homepage or FAQ page. </p>
                         </div>
                         <!-- <div class="col-md-1">
 
@@ -385,7 +439,7 @@
                         </div>
                         <div class="col-md-3">
                                 <img src="privacygrade_Style_Guide.png" class="figure-img img-fluid" id="privacy_grade" data-toggle="modal" data-target="#privStyle_enlarged">
-                                <div class="modal fade" id="privgrade_enlarged">
+                                <div class="modal fade" id="privStyle_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
                                         <div class="modal-content">
                                             <img src="privacygrade_Style_Guide.png" class="modal_L" data-dismiss="modal">
@@ -406,72 +460,17 @@
                         </div>
                     </div>
                     <div class="row mt-4">
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Original Homepage</h3>
-                            <img src="home_0.png" class="figure-img img-fluid" id="homePic0" data-toggle="modal" data-target="#home0_enlarged">
-                            <div class="modal fade" id="home0_enlarged">
+                        <div class="col-md" style="text-align:center;">
+                            <img src="redesign.png" class="figure-img img-fluid" id="redesign" data-toggle="modal" data-target="#redesign_enlarged">
+                            <div class="modal fade" id="redesign_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
-                                        <img src="home_0.png" class="modal_L" data-dismiss="modal">
+                                        <img src="redesign.png" class="modal_L" data-dismiss="modal">
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Brainstorming</h3>
-                            <img src="home_1.png" class="figure-img img-fluid" id="homePic1" data-toggle="modal" data-target="#home1_enlarged">
-                            <div class="modal fade" id="home1_enlarged">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="home_1.png" class="modal_L" data-dismiss="modal">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Iteration 1</h3>
-                            <img src="home_2.png" class="figure-img img-fluid" id="homePic2" data-toggle="modal" data-target="#home2_enlarged">
-                            <div class="modal fade" id="home2_enlarged">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="home_2.png" class="modal_L" data-dismiss="modal">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Iteration 2</h3>
-                            <img src="home_3.png" class="figure-img img-fluid" id="homePic3" data-toggle="modal" data-target="#home3_enlarged">
-                            <div class="modal fade" id="home3_enlarged">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="home_3.png" class="modal_L" data-dismiss="modal">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Iteration 3</h3>
-                            <img src="home_4.png" class="figure-img img-fluid" id="homePic4" data-toggle="modal" data-target="#home4_enlarged">
-                            <div class="modal fade" id="home4_enlarged">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="home_4.png" class="modal_L" data-dismiss="modal">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2" style="text-align:center;">
-                            <h3>Iteration 4</h3>
-                            <img src="home_5.png" class="figure-img img-fluid" id="homePic5" data-toggle="modal" data-target="#home5_enlarged">
-                            <div class="modal fade" id="home5_enlarged">
-                                <div class="modal-dialog modal-dialog-centered">
-                                    <div class="modal-content">
-                                        <img src="home_5.png" class="modal_L" data-dismiss="modal">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     
                          
                         </div>
                     <!-- Results and Takeaways -->
@@ -484,14 +483,14 @@
                     </div>
                     <div class="row">
                         <div class="col-md-5">
-                            <p class="ml-4 h2-heading">The visual quality of the data visualization helped to engage users to understand why apps are collecting their data and where they send them to.</p>
-                            <p class="ml-4">My professor was very happy with the result. We are aiming for deployment of the web site in January 2020. This was a great learning experience for me as well as I had never done data visualization before. This project helped me to push my design capabilities and develop confidence as a designer. </p>
+                            <p class="ml-4 mt-4">Our professor was very happy with the end product, and we are aiming for deployment of the web site in January 2020. We believe the website is successful in educating people about the types of data apps are collecting about us and why. We hope this information will raise awareness for the general public about data privacy and security.  </p>
+                            <p class="ml-4">This was a great learning experience for me as well in terms of learning data drive design to convey information that is coherent and cogent. Also, working with fellow teammate who is a developer helped me gain empathy and collaborative skills to make an impactful product. </p>
                         </div>
                         <div class="col-md-1">
 
                         </div>
                         <div class="col-md-5">
-                            <img src="results_1.png" class="mx-auto d-block tweaks">
+                            <img src="results_1.png" class="mx-auto my-3 d-block tweaks">
                             <img src="results_2.png" class="mx-auto d-block tweaks">
                         </div>
                     </div>
@@ -505,30 +504,51 @@
                 <!--- Footer -->
                 <footer>
                     <!-- Next button -->
-                    <div id="nextPage">
-                        <a id="nextText" href="catalog.html">Next &nbsp;</a>
-                        <i class="fa fa-chevron-right"></i>
-                    </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md text-md-left text-center">
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-4 text-md-left" id="nextPage">
+                                <i class="fa fa-chevron-left"></i>
+                                <a id="nextText" href="home.html">&nbsp; Previous</a>
+                            </div>
+                            <!-- <div class="col-5">
+
+                            </div> -->
+                            <div class="col-md-7 text-md-right" id="nextPage">
+                                <a id="nextText" href="catalog.html">Next &nbsp;</a>
+                                <i class="fa fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div id="nextPage">
+                        <a id="nextText" href="catalog.html">Next &nbsp;</a>
+                        <i class="fa fa-chevron-right"></i>
+                    </div> -->
+                    <div class="container mt-5 mb-4">
+                        <div class="row">
+                            <div class="col-md-2">
+
+                            </div>
+                            <div class="col-md-4 text-md-left text-center">
                                 <p id="copyright">© Copyright Amy Lu 2019</p>
                             </div>
-                            <div class="col-md text-md-right text-center">
+                            <div class="col-md-5 text-md-right text-center">
                                 <!-- Social media buttons -->
                                 <ul class="list-unstyled list-inline">
                                     <li class="list-inline-item">
-                                        <a>
+                                        <a href="https://www.instagram.com/ambu555/">
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a>
+                                        <a href="https://www.linkedin.com/in/amy-lu/">
                                             <i class="fa fa-linkedin-square"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a>
+                                        <a href="https://www.pinterest.com/ikimi315/">
                                             <i class="fa fa-pinterest-square"></i>
                                         </a>
                                     </li>
@@ -556,7 +576,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#" id="nav1">DESIGN</a>
                                 <ul class="list-unstyled" id="nav1_sub">
-                                    <li class="my-2"> <a class="design_sub" href="knows.html">&nbsp; - Who knows what about us and why?</a></li>
+                                    <li class="my-2"> <a class="design_sub active" href="knows.html">&nbsp; - Who knows what about us and why?</a></li>
                                     <li class="my-2"> <a class="design_sub" href="catalog.html">&nbsp; - cat-a-log</a> </li>
                                     <li class="my-2"> <a class="design_sub" href="junto.html">&nbsp; - Junto</a> </li>
                                     <li class="my-2"> <a class="design_sub" href="cinnabon.html">&nbsp; - cinnabon</a></li>

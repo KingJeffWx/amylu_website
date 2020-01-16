@@ -10,8 +10,8 @@
     margin-right: -50px;
 } */
 #mainContent {
-    background-color: #F6F6F6;
-    padding-top: 20px;
+    background-color: #fcfcfc;
+    /* padding-top: 5px; */
 }
 
 h1 {
@@ -38,16 +38,16 @@ h3 {
 }
 
 .h2-heading {
-    font-family: 'SF Pro Text', sans-serif;
+    font-family: "SF Pro Text", sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
-line-height: 29px;
-letter-spacing: 0.04em;
+line-height: 26px;
+/* letter-spacing: 0.04em; */
 /* or 31px */
 
 
-color: #000000;
+color: #4A4A4A;
 }
 /* div.col-md-3 {
     font-family: 'Roboto', sans-serif;
@@ -100,7 +100,7 @@ p, .list {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 25px;
     letter-spacing: 0.04em;
     color: #4A4A4A;
 }
@@ -131,7 +131,7 @@ p, .list {
 }
 
 .he_image {
-    width: 30%;
+    width: 80%;
 }
 
 #information_architecture {
@@ -142,30 +142,14 @@ p, .list {
     width: 90%;
     cursor: zoom-in;
 }
-#homePic0 {
+#redesign {
     width: 100%;
     cursor: zoom-in;
 }
 
-#homePic1 {
-    width: 50%;
-    cursor: zoom-in;
-}
-#homePic2 {
-    width: 80%;
-    cursor: zoom-in;
-}
-#homePic3 {
-    width: 60%;
-    cursor: zoom-in;
-}
-#homePic4 {
-    width: 65%;
-    cursor: zoom-in;
-}
-#homePic5 {
-    width: 45%;
-    cursor: zoom-in;
+.float-image {
+    position: relative;
+    top: 40px;
 }
 
 .tweaks {
@@ -216,12 +200,12 @@ p, .list {
     margin: 2% 0% 0% 20%;
     padding: 0;
     max-width: 100%;
-    max-height: 100%;
+    /* max-height: 100%; */
 }
 
 .modal_L {
     height: auto;
-    width: 60vw;
+    width: 50vw;
     margin: auto;
     cursor: zoom-out;
 }
@@ -257,10 +241,18 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
     color: #4A4A4A;
 }
 
-footer {
+footer{
     padding-top: 30px;
 }
 
+footer a{
+    color: #4A4A4A;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
 #nextPage {
     text-align: right;
     margin-right: -13%;
@@ -293,8 +285,13 @@ footer {
 
     .modal_L {
         height: auto;
-        width: 90vw;
+        width: 90%;
         margin: auto;
         cursor: zoom-out;
+    }
+}
+
+@media (max-width:576px) {
+
     }
 }
