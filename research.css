@@ -2,11 +2,13 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 155.19%;
+    letter-spacing: 0.04em;
+    font-size: 14px;
 }
 
 #mainContent {
-    background-color: #F6F6F6;
-    padding-top: 20px;
+    background-color: #fcfcfc;
 }
 
 h1 {
@@ -20,33 +22,17 @@ h1 {
     color: #000000;
 }
 
-div.col-md-2 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 139.19%;
-    /* or 17px */
-    letter-spacing: 0.015em;
-    color: #4A4A4A;
-    margin-top: 20px;
-    /* margin-bottom: 100px; */
-}
+.h2-heading {
+    font-family: "SF Pro Text", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* letter-spacing: 0.04em; */
+/* or 31px */
 
-div.col-md-10 {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 155.19%;
-    /* or 19px */
-    color: #4A4A4A;
-    margin-top: 20px;
-    /* margin-bottom: 100px; */
-}
 
-div.col-md-6, div.col-md-12 {
-    /* padding-bottom: 25px; */
+color: #4A4A4A;
 }
 
 /* Section Header CSS */
@@ -54,7 +40,10 @@ ul.sectionHeader {
     list-style-type: square;
     margin-left: -18px;
 }
-
+ul.list-unstyled {
+    list-style: square inside url("dash.svg");
+    list-style-position: outside;
+}
 ul.sectionHeader li {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -66,12 +55,13 @@ ul.sectionHeader li {
     color: #000000;
 }
 
-p {
+p, .list {
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 155.19%;
+    line-height: 25px;
+    letter-spacing: 0.04em;
     color: #4A4A4A;
 }
 
@@ -110,32 +100,32 @@ p {
 /* Figures */
 
 #stakeholder {
-    width: 13vw;
+    width: 14vw;
     cursor: zoom-in;
 }
 
 #customer {
-    width: 18vw;
+    width: 20vw;
     cursor: zoom-in;
 }
 
 #bkgd {
-    width: 30vw;
+    width: 35vw;
     cursor: zoom-in;
 }
 
 #walkthewall {
-    width: 30vw;
+    width: 35vw;
     cursor: zoom-in;
 }
 
 .interviews {
-    width: 15vw;
+    width: 30vw;
     cursor: zoom-in;
 }
 
 #affinity_diagram {
-    width: 80vw;
+    width: 100%;
     cursor: zoom-in;
 }
 
@@ -215,12 +205,20 @@ p {
     margin: auto;
     cursor: zoom-out;
 }
-
+.modal_XL {
+    height: auto;
+    width: 80vw;
+    margin: auto;
+    cursor: zoom-out;
+}
 /* Navbar CSS */
-ul.navbar-nav {
-    padding-top: 0px;
+nav a{
     font-size: 14px;
     line-height: 133.69%;
+    letter-spacing: 0.2em;
+}
+.bold {
+    font-weight: bold;
     letter-spacing: 0.2em;
 }
 
@@ -245,7 +243,14 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
 footer {
     padding-top: 30px;
 }
+footer a{
+    color: #4A4A4A;
+}
 
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
 #nextPage {
     text-align: right;
     margin-right: -13%;
@@ -278,6 +283,13 @@ footer {
         margin: auto;
         cursor: zoom-out;
     }
+
+    .modal_XL {
+        height: auto;
+        width: 95vw;
+        margin: auto;
+        cursor: zoom-out;
+    }
     /* Figures */
     #stakeholder {
         width: 90vw;
@@ -292,10 +304,15 @@ footer {
         cursor: zoom-in;
     }
     #walkthewall {
-        width: 90vw;
+        width: 100%;
         cursor: zoom-in;
     }
     .interviews {
+        width: 90vw;
+        cursor: zoom-in;
+    }
+
+    #affinity_diagram {
         width: 90vw;
         cursor: zoom-in;
     }

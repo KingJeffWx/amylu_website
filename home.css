@@ -115,7 +115,10 @@ ul.navbar-nav {
     line-height: 133.69%;
     letter-spacing: 0.2em;
 }
-
+ul.list-unstyled {
+    list-style: square inside url("dash.svg");
+    list-style-position: outside;
+}
 a.nav-link, a.design_sub {
     color: #767676;
 }

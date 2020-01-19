@@ -10,58 +10,82 @@
     <link rel="stylesheet" href="cinnabon.css">
     <link rel="stylesheet" href="navbar-fixed-right.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+    <title>Cinnabon</title>
   </head>
   <body>
     <div class="container-fluid" style="padding-top:30px;">
         <div class="row">
-            <div class="col-md-11">
-                <!-- Main Content -->
-                <div class="container" id="mainContent">
-                    <div class="row" id="cinnabonTitle">
-                        <div class="col-md">
-                                <h1>cinnabon.</h1>
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-9">
+                <!-- Title -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md ml-4">
+                            <h1>cinnabon.</h1>
                         </div>
                     </div>
-                    <div class="row" id="overview">
-                        <div class="col-md-2">
+
+                    <!--Intro-->
+                    <div class="row">
+                        <div class="col-md-5 h2-heading ml-4 mt-5">
                             Web design and implementation of a cinnabon bakeshop
+                            <div class="row">
+                                <div class="col-3 mt-5">
+                                    <p>Time</p>
+                                    <p>Role</p>
+                                    
+                                    
+                                </div>
+                                <div class="col-9 mt-5">
+                                    <p>Sept - Dec 2019</p>
+                                    <p>Web Design </p>
+                                    <p>Visual Design </p>
+                                    <p>Front-end Development (HTML, CSS, JavaScript, Github)</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-10">
-                            <b>time</b> | Sept - Oct 2019<br>
-                            &nbsp;<b>role</b> | Web Design (Figma)<br>
-                            &emsp;&emsp;&emsp;Visual Design (Procreate, Illustrator)<br>
-                            &emsp;&emsp;&emsp;Front-end Development (HTML, CSS, JavaScript, Github)
+                        
+                        <div class="col-md-6 mt-5 pt-3">
+                            <img src="cinnabon_cover.png" class="mx-auto d-block" id="cinnabon_cover">
                         </div>
                     </div>
+                
+                </div>
+                
+                <div class="container mx-auto" id="mainContent">
+                    
                     <!-- Project Overview-->
-                    <div class="row mt-5" id="projectOverviewTitle">
-                        <div class="col-md">
+                    <div class="row mt-5">
+                        <div class="col-md mt-4">
                             <ul class="sectionHeader">
                                 <li>Project Overview</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row mt-3">
+                        <div class="col-md-11">
                             <p class="ml-4">As part of the course Programming Usable Interfaces, I designed and developed a cinnabon website using Figma, HTML, CSS, & JavaScript. The site is hosted on Github. The cinnabon prompt was assigned randomly, while each student had free reign over the design style and implementation choices. You can view the final website here: cinnabon.</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="cinnabon_cover.png" class="mx-auto d-block" id="cinnabon_cover">
                         </div>
                     </div>
                     <!-- Competitive Analysis -->
-                    <div class="row" style="margin-bottom:30px;">
-                        <div class="col-md-6">
+                    <div class="row mt-5">
+                        <div class="col-md-7">
                             <ul class="sectionHeader">
-                                <li>Competitive Analysis</li>
+                                <li class="mb-4">Competitive Analysis</li>
                             </ul>
-                            <p class="ml-4">We began the process through a competitive analysis of three ecommerce websites that allowed for item purchasing. I focused on Laduree, COS, and La Colombe, and analyzed 2 strengths as well as 2 areas that could use improvement.</p>
                         </div>
                     </div>
+
+                    <div class="row mt-3">
+                        <div class="col-md-5">
+                            <p class="ml-4">We began the process through a competitive analysis of three ecommerce websites that allowed for item purchasing. I focused on Laduree, COS, and La Colombe, and analyzed 2 strengths as well as 2 areas that could use improvement.</p>
+                        </div>
+                    
                     <!-- Carousel -->
-                    <div class="row">
-                        <div id="cinnabonCarousel" class="carousel slide mx-auto" data-ride="carousel">
+        
+                        <div id="cinnabonCarousel" class="carousel slide mx-auto col-md-7"data-ride="carousel">
                             
                             <div class="carousel-inner">
                                 
@@ -106,6 +130,7 @@
                                     </figure>
                                 </div>
                             </div>
+                           
                             <a class="carousel-control-prev" href="#cinnabonCarousel" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
@@ -116,16 +141,21 @@
                             </a>
                         </div>
                     </div>
+                
                     <!-- What I Found -->
-                    <div class="row">
-                        <img src="whatifound.svg">
+                    <div class="row mt-5">
+                        <div class="col-md mt-4">
+                            <ul class="sectionHeader">
+                                <li>What I Learned from Competitive Analysis:</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="row"> 
                         <div class="col-md">
                             <ol>
-                                <li class="my-4">Group similar items together to make it easy for user to browse.</li>
-                                <li class="my-4">Headings such as ‘Customer Favorites’ help users better understand the product through recommended suggestions.</li>
-                                <li class="my-4">Use of aesthetics through color, typography, and imagery establish the voice of the brand.</li>
+                                <li class="my-4 list">Group similar items together to make it easy for user to browse.</li>
+                                <li class="my-4 list">Headings such as ‘Customer Favorites’ help users better understand the product through recommended suggestions.</li>
+                                <li class="my-4 list">Use of aesthetics through color, typography, and imagery establish the voice of the brand.</li>
                             </ol>
                         </div>
                     </div>
@@ -137,8 +167,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row mt-3">
+                        <div class="col-md-5 ml-4">
                             <p class="ml-4">Keeping the insights derived from the competitive analysis in mind, I created a very rough paper prototype that sought to include the components.</p>
                             <p class="ml-4">Homepage was a one-pager where all the products are laid out on one page, (since there aren’t many products). But when I tested this with a user, their immediate feedback was: “where is the all product page?”</p>
                             <p class="ml-4">She searched on the entire page for a link or a keyword. Yet all products are laid out on the page. It made me realize that it’s important to abide by common design conventions while designing interfaces, as users are accustomed to the sites they encounter and expect similar while browsing on your site.</p>
@@ -186,9 +216,13 @@
                             <ul class="sectionHeader">
                                 <li>Using Visual Design to tell an Engaging Story.</li>
                             </ul>
-                            <p class="ml-4 mt-4">In this high-fidelity prototype, I wanted to bring a whimsicial touch to the aesthetic of the site by incorporating my own digital illustrations and the design of the logo. Adding the visual language will set apart cinnabon from the rest of the competition, help tell an engaging story, as well as bring fun and personality to the mix.</p>
                         </div>
-                        <div class="col-md-6">
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-6 ml-4 mt-3">
+                            <p class="ml-4">In this high-fidelity prototype, I wanted to bring a whimsicial touch to the aesthetic of the site by incorporating my own digital illustrations and the design of the logo. Adding the visual language will set apart cinnabon from the rest of the competition, help tell an engaging story, as well as bring fun and personality to the mix.</p>
+                        </div>
+                        <div class="col-md-5 mt-3">
                             <img src="cinnabon_process.png" class="mx-auto d-block" id="cinnabon_process" data-toggle="modal" data-target="#process_enlarged">
                             <div class="modal fade" id="process_enlarged">
                                 <div class="modal-dialog modal-dialog-centered">
@@ -210,7 +244,11 @@
                             <ul class="sectionHeader">
                                 <li>Bring Designs to Life through an Interactive Prototype</li>
                             </ul>
-                            <p class="ml-4 mt-4">To bring the designs to life, I used Figma to create and prototype the screens and interactions.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 ml-4 mt-3">
+                            <p class="ml-4">To bring the designs to life, I used Figma to create and prototype the screens and interactions.</p>
                         </div>
                     </div>
                     <div class="row mt-4 ml-1">
@@ -224,8 +262,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <button class="mx-auto d-block">Check out the interactive prototype here</button>
+                        <div class="col-md-6 mt-5 pt-5">
+                            <a href ="https://amyyejunlu.github.io/puiHW/assign_6/index.html"><button class="mx-auto d-block">Check out the interactive prototype here</button></a>
                         </div>
                     </div>
                     <div class="row mt-5">
@@ -242,7 +280,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="row mt-5">
+                    <div class="row mt-3">
                         <div class="col-md-12">
                             <img src="cinnabon_revision.png" class="mx-auto d-block" id="cinnabon_revision">
                         </div>
@@ -253,14 +291,20 @@
                             <ul class="sectionHeader">
                                 <li>Implementation using HTML, CSS, JavaScript, + Github</li>
                             </ul>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class ="col-md-5 ml-4">
                             <p class="ml-4">Coding this website was a big challenge in trying to replicate my design as closely as possible as well as trying to simulate an item purchasing experience by allowing the user to add products to their shopping cart.</p>
                             <p class="ml-4">On the single product page, user is able to select a glaze and add it to cart. As they select more glazes and add them to cart, the popup will display the glazes the user had selected. In the cart page the user is able to remove an item from the cart.</p>
                             <p class="ml-4">I used CSS grid to align all the components so the look is clean and streamlined across pages. It was also my first time learning how to code in JavaScript. I learned a lot about how the language works with HTML, such as using document.getElementById to pull html elements and using event handlers to handle input from user. </p>
                             <p class="ml-4">The most difficult thing for me was understanding the layers of logic that goes in towards building the local storage. I learned that the first thing to do is to store properties into objects as an empty array. In order to get what the user clicks, I push the target value from HTML into the empty array. Then this empty array is called by a function that sets its localStorage and gets its info. If I have more time, I would like to implement price and quantity into the selections.</p>
                         </div>
-                        <div class="col-md-6" style="margin-top:100px;">
-                            <video src="cinnabon_video.mov" id="cinnabon_video" controls></video>
-                            <figure class="figure">
+                       
+                        <div class="col-md-6 ml-5">
+                            <img src="cinnabon_gif.gif" id="cinnabon_video">
+                            <figure class="figure mt-5">
                                 <img src="cinnabon_javascript.png" class="figure-img img-fluid" id="cinnabon_javascript" data-toggle="modal" data-target="#javascript_enlarged">
                                 <div class="modal fade" id="javascript_enlarged">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -273,15 +317,16 @@
                             </figure>
                         </div>
                     </div>
+                   
                     <!-- Final Design -->
-                    <div class="row mt-2">
-                        <div class="col-md">
+                    <div class="row mt-5">
+                        <div class="col-12">
                             <ul class="sectionHeader">
                                 <li>Final Design</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-6">
                             <img src="cinnabon_coded_1.png" class="mx-auto d-block codedPic">
                         </div>
@@ -292,43 +337,62 @@
                         </div>
                     </div>
                 </div>
-                <!--- Footer -->
-                <footer>
-                    <!-- Next button -->
-                    <div id="nextPage">
-                        <a href="" id="nextText">Next &nbsp;</a>
-                        <i class="fa fa-chevron-right"></i>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md text-md-left text-center">
-                                <p id="copyright">© Copyright Amy Lu 2019</p>
-                            </div>
-                            <div class="col-md text-md-right text-center">
-                                <!-- Social media buttons -->
-                                <ul class="list-unstyled list-inline">
-                                    <li class="list-inline-item">
-                                        <a>
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a>
-                                            <i class="fa fa-linkedin-square"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a>
-                                            <i class="fa fa-pinterest-square"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                </div>
+        </div>
+              <!--- Footer -->
+              <footer>
+                <!-- Next button -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-4 text-md-left" id="nextPage">
+                            <i class="fa fa-chevron-left"></i>
+                            <a id="nextText" href="home.html">&nbsp; Previous</a>
+                        </div>
+                        <!-- <div class="col-5">
+
+                        </div> -->
+                        <div class="col-md-7 text-md-right" id="nextPage">
+                            <a id="nextText" href="research.html">Next &nbsp;</a>
+                            <i class="fa fa-chevron-right"></i>
                         </div>
                     </div>
-                </footer>
-            </div>
-            <div class="col">
+                </div>
+                <div class="container mt-5 mb-4">
+                    <div class="row">
+                        <div class="col-md-2">
+
+                        </div>
+                        <div class="col-md-4 text-md-left text-center">
+                            <p id="copyright">© Copyright Amy Lu 2019</p>
+                        </div>
+                        <div class="col-md-5 text-md-right text-center">
+                            <!-- Social media buttons -->
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/ambu555/">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/amy-lu/">
+                                        <i class="fa fa-linkedin-square"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.pinterest.com/ikimi315/">
+                                        <i class="fa fa-pinterest-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+         
+    
                 <!-- Navbar for homepage -->
                 <nav class="navbar navbar-expand-md navbar-light fixed-right">
                     <!-- Intentional to force collapse button to right -->
@@ -344,11 +408,11 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" id="nav1">DESIGN</a>
-                                <ul class="list-unstyled" id="nav1_sub">
-                                    <li class="my-2"> <a class="design_sub" href="knows.html">&nbsp; - Who knows what about us and why?</a></li>
-                                    <li class="my-2"> <a class="design_sub" href="catalog.html">&nbsp; - cat-a-log</a> </li>
-                                    <li class="my-2"> <a class="design_sub" href="junto.html">&nbsp; - Junto</a> </li>
-                                    <li class="my-2"> <a class="design_sub" href="cinnabon.html">&nbsp; - cinnabon</a></li>
+                                <ul class="list-unstyled ml-4" id="nav1_sub">
+                                    <li class="my-4"> <a class="design_sub" href="knows.html">Who knows what about us and why?</a></li>
+                                    <li class="my-4"> <a class="design_sub" href="catalog.html">cat-a-log</a> </li>
+                                    <li class="my-4"> <a class="design_sub" href="junto.html">Junto</a> </li>
+                                    <li class="my-4"> <a class="design_sub bold" href="cinnabon.html">cinnabon</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -364,7 +428,7 @@
                     </div>
                 </nav>
                 
-            </div>
+           
         </div>
     </div>
     

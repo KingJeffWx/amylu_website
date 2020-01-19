@@ -2,22 +2,49 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 155.19%;
+    letter-spacing: 0.04em;
+    font-size: 14px;
 }
-
 #mainContent {
-    background-color: #F6F6F6;
-    padding-top: 20px;
+    background-color: #fcfcfc;
+
 }
 
 h1 {
-    font-family: "Adobe Caslon Pro", serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 155.19%;
-    /* or 68px */
+    /* or 62px */
     letter-spacing: 0.08em;
     color: #000000;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 155.19%;
+
+    /* or 22px */
+    color: #4A4A4A;
+    text-align: center;
+}
+
+.h2-heading {
+    font-family: "SF Pro Text", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* letter-spacing: 0.04em; */
+/* or 31px */
+
+
+color: #4A4A4A;
 }
 
 #cinnabonTitle {
@@ -28,37 +55,35 @@ h1 {
     padding-top: 30px;
 }
 /*this is to adjust margin for intro */
-div.col-md-2 {
+/* div.col-md-2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 139.19%;
     /* or 17px */
-    letter-spacing: 0.015em;
-    color: #4A4A4A;
-    margin-top: 20px;
+    /* letter-spacing: 0.015em; */
+    /* color: #4A4A4A; */
+    /* margin-top: 20px; */
     /* margin-bottom: 50px; */
 }
 
-div.col-md-10 {
+/* div.col-md-10 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 155.19%;
+    line-height: 155.19%; */
     /* or 19px */
-    color: #4A4A4A;
-    margin-top: 20px;
+    /* color: #4A4A4A;
+    margin-top: 20px; */
     /* margin-bottom: 50px; */
 }
 
-div.col-md-6, div.col-md-12 {
-    /* padding-bottom: 25px; */
-}
+
 
 /* Section Header CSS */
-ul.sectionHeader {
+.sectionHeader {
     list-style-type: square;
     margin-left: -18px;
 }
@@ -74,15 +99,28 @@ ul.sectionHeader li {
     color: #000000;
 }
 
+ul.list-unstyled {
+    list-style: square inside url("dash.svg");
+    list-style-position: outside;
+}
 p {
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 155.19%;
+    line-height: 25px;
+    letter-spacing: 0.04em;
     color: #4A4A4A;
 }
-
+.list {
+    font-family: "SF Pro Text", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #4A4A4A;
+}
 /* Images */
 #cinnabon_cover {
     width: 90%;
@@ -96,7 +134,7 @@ p {
 }
 
 #prototype1 {
-    width: 30vw;
+    width: 90%;
     height: auto;
     cursor: zoom-in;
 }
@@ -111,7 +149,7 @@ p {
 }
 
 #cinnabon_process {
-    width: 25vw;
+    width: 90%;
     height: auto;
     cursor: zoom-in;
 }
@@ -137,12 +175,13 @@ p {
 }
 
 #cinnabon_video {
-    width: 80%;
+    width: 90%;
     height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .codedPic {
-    width: 90%;
+    width: 95%;
     height: auto;
     margin-bottom: 5%;
 }
@@ -172,7 +211,7 @@ button {
 }
 
 #cinnabon_javascript {
-    width: 30vw;
+    width: 90%;
     height: auto;
     cursor: zoom-in;
 }
@@ -195,13 +234,21 @@ button {
 }
 
 /* Navbar CSS */
-ul.navbar-nav {
+/* ul.navbar-nav {
     padding-top: 0px;
+    font-size: 12px;
+    line-height: 133.69%;
+    letter-spacing: 0.2em;
+} */
+
+nav a{
     font-size: 14px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
 }
-
+.bold {
+    font-weight: bold;
+}
 a.nav-link, a.design_sub {
     color: #767676;
 }
@@ -220,10 +267,18 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
     color: #4A4A4A;
 }
 
-footer {
+footer{
     padding-top: 30px;
 }
 
+footer a{
+    color: #4A4A4A;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
 #nextPage {
     text-align: right;
     margin-right: -13%;
