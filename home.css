@@ -7,7 +7,7 @@
     font-size: 14px;
 }
 .cover {
-    width: 434px;
+    max-width: 434px;
     margin-left: 23px;
 }
 #ant_cover {
@@ -276,9 +276,9 @@ footer a:hover {
         max-width: 100%;
     }
 }
-@media (min-width:325px) {
-    .col-10 {
-        width: 0%;
+@media (max-width:425px) {
+    .cover {
+        max-width: 300px;
 
     }
 }
