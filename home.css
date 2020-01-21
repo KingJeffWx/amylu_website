@@ -2,22 +2,28 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 155.19%;
+    letter-spacing: 0.04em;
+    font-size: 14px;
 }
-
+.cover {
+    width: 434px;
+    margin-left: 23px;
+}
 #ant_cover {
     background-image: url("ant_cover.png");
 }
 
 #catalog_cover {
-    background-image: url("catalog_cover.png");
+    background-image: url("catalog_cover_home.png");
 }
 
-#junto_cover {
+/* #junto_cover {
     background-image: url("junto_cover.png");
-}
+} */
 
 #cinnabon_cover {
-    background-image: url("cinnabon_cover.png");
+    background-image: url("cinnabon_cover_home.png");
 }
 
 #humancir_cover {
@@ -34,10 +40,10 @@
 
 .responsive {
     background-position: center;
-    height: calc(2.38vw * 6.4);
-    width: calc(3.35vw * 6.4);
+    height: calc(2vw * 8);
+    width: calc(4.5vw * 7);
     background-repeat: no-repeat;
-    background-size: auto 108%;
+    background-size: auto 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -45,11 +51,11 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 2%;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* margin: 2%; */
     overflow: hidden;
-    max-height: 238px;
-    max-width: 335px;
+    /* max-height: 238px; */
+    /* max-width: 435px; */
 }
 
 .responsive:hover {    
@@ -74,26 +80,62 @@
     font-size: 14px;
 }
 
-p.text-right {
-    font-weight: bold;
+p.design-right {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+    font-size: 24px;
+    line-height: 131.69%;
+    /* or 32px */
+
+    letter-spacing: 0.075em;
+    color: #71ADD5;
+    text-align: right;
+    /* font-weight: bold;
     font-size: 8vw;
-    margin-bottom: -3.0vw;
+    margin-bottom: -3.0vw; */
 }
 
+p.research-right {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+    font-size: 24px;
+    line-height: 131.69%;
+    /* or 32px */
+
+    letter-spacing: 0.075em;
+    color: #AA9BD2;
+    text-align: right;
+}
+p.about-right {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+    font-size: 24px;
+    line-height: 131.69%;
+    /* or 32px */
+
+    letter-spacing: 0.075em;
+    color: #AEC6A8;
+    text-align: right;
+}
 #Intro {
-    padding-top: 30px;
+    
 }
 
+.IntroText {
+    max-width: 400px;
+}
 #Design {
     background-color:#ebf7ff;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin-top: 30px;
-    padding-top: 20px;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    /* margin-top: 30px; */
+    padding-top: 20px; 
 }
-
 #Research {
     background-color: #E9E2FD;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     padding-top: 20px;
 }
 
@@ -105,15 +147,26 @@ p.text-right {
 
 #About {
     background-color: #EDF9EA;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     padding-top: 20px;
 }
-
-ul.navbar-nav {
-    padding-top: 220px;
+div#Research.col-md-3 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div#About {
+    padding-right: 20px;
+}
+p.research-right {
+    padding-right: 20px;
+}
+nav a{
     font-size: 14px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
+}
+ul.navbar-nav {
+    padding-top: 0px;
 }
 ul.list-unstyled {
     list-style: square inside url("dash.svg");
@@ -130,7 +183,14 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
 
 
 #amy {
-    color: #71ADD5;
+    color: #2D9CDB;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 155.19%;
+    /* or 62px */
+    letter-spacing: 0.08em;
 }
 #amy:hover, #amy:active {
     color: #000;
@@ -141,26 +201,38 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-font-size: 100px;
-line-height: 131.69%;
-/* or 132px */
-letter-spacing: -0.045em;
-
-color: rgba(113, 173, 213, 0.5);
+    font-size: 40px;
+    line-height: 155.19%;
+    /* or 62px */
+    letter-spacing: 0.08em;
+    color: #000000;
 }
-
-.whoIsAmy {
+.whoIsAmy_1 {
+    font-size: 20px;
+}
+.whoIsAmy_2 {
+    font-size: 18px;
+}
+/* .whoIsAmy {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
     line-height: 36px;
     /* or 182% */
-    letter-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
     
+    /* color: #4A4A4A; */
+/* }  */
+p {
+    font-family: "SF Pro Text", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
     color: #4A4A4A;
 }
-
 #copyright {
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
@@ -174,6 +246,14 @@ footer {
     padding-top: 30px;
 }
 
+footer a{
+    color: #4A4A4A;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: none;
+}
 @media (max-width:768px) {
     .responsive {
         height: 238px;
@@ -185,5 +265,20 @@ footer {
     .responsive {
         height: calc(238px * 0.8);
         width: calc(335px * 0.8);
+    }
+}
+
+@media (min-width:768px) {
+    .col-md-3 {
+        max-width: 100%;
+    }
+    .col-md-6 {
+        max-width: 100%;
+    }
+}
+@media (min-width:325px) {
+    .col-10 {
+        width: 0%;
+
     }
 }
