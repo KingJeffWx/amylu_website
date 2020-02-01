@@ -10,7 +10,7 @@
     background-color: #fcfcfc;
 
 }
-.parallax {
+.parallax_img {
     /* The image used */
     background-image: url("cinnabon_home.png");
   
@@ -376,4 +376,10 @@ footer a:hover {
         margin-right: 0%;
     }
     
+}
+
+@media screen and (max-width: 768px) {
+	.parallax_img {
+		background-attachment: inherit;
+	}
 }

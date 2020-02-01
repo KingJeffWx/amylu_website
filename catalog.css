@@ -10,7 +10,7 @@
 #mainContent {
     background-color: #fcfcfc;
 }
-.parallax {
+.parallax_img {
     /* The image used */
     background-image: url(responsive.png);
   
@@ -519,4 +519,10 @@ footer a:hover {
         text-align: right;
         margin-right: 0%;
     }
+}
+
+@media screen and (max-width: 768px) {
+	.parallax_img {
+		background-attachment: inherit;
+	}
 }

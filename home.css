@@ -114,8 +114,36 @@ research-middle, design-right {
   width: 50%;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 186.69%;
+    /* or 56px */
 
+    letter-spacing: 0.07em;
 
+    color: #000000;
+}
+#physical {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 186.69%;
+    /* or 56px */
+
+    letter-spacing: 0.07em;
+    font-style: italic;
+    text-decoration: underline;
+    color: black;
+}
+
+#physical:hover {
+    color: red;
+    cursor: pointer;
+}
 .IntroText {
     max-width: 1000px;
 }

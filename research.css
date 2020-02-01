@@ -10,12 +10,12 @@
 #mainContent {
     background-color: #fcfcfc;
 }
-.parallax {
+.parallax_img {
     /* The image used */
     background-image: url("research_home.png");
   
     /* Set a specific height */
-    min-height: 800px; 
+    min-height: 700px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -360,4 +360,10 @@ footer a:hover {
     #project_definition_image {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 768px) {
+	.parallax_img {
+		background-attachment: inherit;
+	}
 }
