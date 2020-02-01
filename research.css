@@ -10,7 +10,19 @@
 #mainContent {
     background-color: #fcfcfc;
 }
-
+.parallax {
+    /* The image used */
+    background-image: url("research_home.png");
+  
+    /* Set a specific height */
+    min-height: 800px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -213,7 +225,7 @@ p, .list {
 }
 /* Navbar CSS */
 nav a{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 133.69%;
     letter-spacing: 0.2em;
 }

@@ -13,7 +13,19 @@
     background-color: #fcfcfc;
     /* padding-top: 5px; */
 }
-
+.parallax {
+    /* The image used */
+    background-image: url("knows_img.png");
+  
+    /* Set a specific height */
+    min-height: 700px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -120,7 +132,9 @@ p, .list {
 /* Website Questions */
 .websiteQuestions {
     background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
+    -moz-box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
+    box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
     font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: normal;
@@ -159,6 +173,19 @@ p, .list {
 .tweaks {
     width: 100%;
 }
+.img-shadow {
+    -webkit-box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
+-moz-box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
+box-shadow: 16px 31px 216px -125px rgba(56,56,56,1);
+    /* -webkit-box-shadow: 0px 17px 151px -82px rgba(94,94,94,1);
+    -moz-box-shadow: 0px 17px 151px -82px rgba(94,94,94,1);
+    box-shadow: 0px 17px 151px -82px rgba(94,94,94,1); */
+    }
+    .img-shadow:hover {
+        -webkit-box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
+-moz-box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
+box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
+    }
 
 /* Figures */
 #viz10 {

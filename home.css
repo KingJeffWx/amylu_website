@@ -18,15 +18,20 @@
     max-width: 434px;
     /* margin-left: 23px; */
 }
+.pointer {
+    cursor: pointer;
+}
 .cover {
     -webkit-box-shadow: -4px 9px 88px -40px rgba(89,89,89,1);
     -moz-box-shadow: -4px 9px 88px -40px rgba(89,89,89,1);
     box-shadow: -4px 9px 88px -40px rgba(89,89,89,1);
+    cursor: pointer;
 }
 .cover:hover {
     -webkit-box-shadow: -4px 9px 88px -40px rgba(45,156,219,1);
     -moz-box-shadow: -4px 9px 88px -40px rgba(45,156,219,1);
     box-shadow: -4px 9px 88px -40px rgba(45,156,219,1);
+    cursor: pointer;
 }
 #ant_cover {
     background-image: url("ant_cover.png");
@@ -272,7 +277,7 @@ footer a:hover {
            max-width: 100%;
        }
        .whoIsAmy_2 {
-        font-size: 35px;
+        font-size: 28px;
 
 }
 @media (max-width:375px) {
@@ -284,7 +289,7 @@ footer a:hover {
 
     }
     #amy, h1, .whoIsAmy_2 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .responsive {
         height: calc(10vw * 6);
