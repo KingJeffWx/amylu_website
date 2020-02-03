@@ -85,7 +85,7 @@ p, .list {
     color: #4A4A4A;
 }
 .text-width {
-    width: 500px;
+    width: 450px;
 }
 /* Images */
 #humancir_cover {
@@ -127,14 +127,12 @@ box-shadow: -3px 6px 146px -97px rgba(56,56,56,1);
     box-shadow: 0px 17px 151px -82px rgba(94,94,94,1); */
 }
 .img-shadow:hover {
-    -webkit-box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
-    -moz-box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
-    box-shadow: 28px 31px 216px -125px rgba(45,156,216,1);
+    box-shadow: 0 14px 28px rgba(77, 77, 77, 0.1), 0 10px 10px rgba(0,0,0,0.22);
 }
 /* Figures */
 
 #stakeholder {
-    width: 100%;
+    width: 90vw;
     cursor: zoom-in;
 }
 
@@ -158,10 +156,10 @@ box-shadow: -3px 6px 146px -97px rgba(56,56,56,1);
     cursor: zoom-in;
 }
 
-/* #affinity_diagram {
-    width: 100%;
+#affinity_diagram {
+    width: 90vw;
     cursor: zoom-in;
-} */
+}
 
 #critique {
     width: 32vw;

@@ -12,7 +12,7 @@
 }
 .parallax_img {
     /* The image used */
-    background-image: url("research_home.png");
+    background-image: url("ucre_home.png");
   
     /* Set a specific height */
     min-height: 700px; 
@@ -23,6 +23,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+.img-shadow {
+    box-shadow: -3px 6px 146px -97px rgba(56,56,56,1);
+}
+
+.img-shadow:hover {
+    box-shadow: 0 14px 28px rgba(77, 77, 77, 0.1), 0 10px 10px rgba(0,0,0,0.22);
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
