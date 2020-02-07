@@ -1,7 +1,7 @@
-<svg width="246" height="230" viewBox="0 0 246 230" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="16" width="230" height="230" fill="url(#pattern0)"/>
-<rect y="206" width="16" height="24" fill="black" fill-opacity="0.7"/>
-<path d="M5.70312 215.015H6.73828C6.73828 214.248 7.26074 213.73 8.05664 213.73C8.83789 213.73 9.30176 214.238 9.30176 214.907C9.30176 215.464 9.06738 215.806 8.17383 216.724L5.76172 219.209V220H10.5078V219.019H7.25586V218.936L8.80859 217.407C10.0439 216.187 10.4004 215.61 10.4004 214.795C10.4004 213.628 9.44824 212.783 8.125 212.783C6.7041 212.783 5.70312 213.701 5.70312 215.015Z" fill="white"/>
+<svg width="230" height="230" viewBox="0 0 230 230" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="230" height="230" fill="url(#pattern0)"/>
+<rect width="16" height="19" fill="#444444"/>
+<path d="M5.70312 8.5979H6.73828C6.73828 7.8313 7.26074 7.31372 8.05664 7.31372C8.83789 7.31372 9.30176 7.82153 9.30176 8.49048C9.30176 9.04712 9.06738 9.38892 8.17383 10.3069L5.76172 12.7922V13.5833H10.5078V12.6018H7.25586V12.5188L8.80859 10.9905C10.0439 9.76978 10.4004 9.1936 10.4004 8.37817C10.4004 7.21118 9.44824 6.36646 8.125 6.36646C6.7041 6.36646 5.70312 7.28442 5.70312 8.5979Z" fill="white"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.000488281)"/>
