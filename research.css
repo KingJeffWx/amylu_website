@@ -36,13 +36,36 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 155.19%;
-    /* or 62px */
-    letter-spacing: 0.08em;
+    font-size: 70px;
+    line-height: 145%;
+
+    letter-spacing: 0.07em;
+
     color: #000000;
 }
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 118%;
 
+    letter-spacing: 0.045em;
+
+    color: #444444;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 155.19%;
+
+    /* or 22px */
+    color: #4A4A4A;
+    text-align: center;
+}
 .h2-heading {
     font-family: "SF Pro Text", sans-serif;
 font-style: normal;
@@ -56,27 +79,9 @@ line-height: 26px;
 color: #4A4A4A;
 }
 
-/* Section Header CSS */
-ul.sectionHeader {
-    list-style-type: square;
-    margin-left: -18px;
-}
-ul.list-unstyled {
-    list-style: square inside url("dash.svg");
-    list-style-position: outside;
-}
-ul.sectionHeader li {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 155.19%;
-    /* or 37px */
-    letter-spacing: 0.045em;
-    color: #000000;
-}
 
-p, .list {
+
+p {
     font-family: 'neue-haas-unica', sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -84,8 +89,41 @@ p, .list {
     line-height: 28px;
     letter-spacing: 0.04em;
     color: #4A4A4A;
+    text-align: justify;
+}
+.italic-text {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150.5%;
+    /* or 37px */
+
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+.large-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 145%;
+
+    letter-spacing: 0.07em;
+
+    color: #000000;
 }
 
+.small-list {
+    font-family: 'neue-haas-unica', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #4A4A4A;
+    text-align: justify;
+}
 /* Images */
 #humancir_cover {
     width: 90%;
