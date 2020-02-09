@@ -117,21 +117,19 @@ research-middle, design-right {
 h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 186.69%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150.5%;
     /* or 56px */
-
     letter-spacing: 0.07em;
-
     color: #000000;
 }
 #physical {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 186.69%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150.5%;
     /* or 56px */
 
     letter-spacing: 0.07em;
@@ -174,14 +172,13 @@ h3 {
 
 
 #amy {
-    color: #2D9CDB;
+    /* color: #2D9CDB;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 90px;
     line-height: 155.19%;
-    /* or 62px */
-    letter-spacing: 0.08em;
+    letter-spacing: 0.08em; */
 }
 #amy:hover, #amy:active {
     color: #000;
@@ -191,8 +188,8 @@ h3 {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: bold;
+    font-size: 70px;
     line-height: 157.19%;
     /* or 62px */
     letter-spacing: 0.07em;
@@ -204,17 +201,24 @@ h1 a {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 157.19%;
     /* or 62px */
     letter-spacing: 0.07em;
 }
 
 .whoIsAmy_2 {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0.045em;
+    color: #444444; */
+    font-family: Roboto;
 font-style: normal;
-font-weight: 400;
-font-size: 38px;
+font-weight: 500;
+font-size: 40px;
 line-height: 157.19%;
 /* or 79px */
 

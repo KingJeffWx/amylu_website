@@ -4,7 +4,7 @@
     font-weight: normal;
     line-height: 155.19%;
     letter-spacing: 0.04em;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 #mainContent {
@@ -34,6 +34,7 @@ p {
     letter-spacing: 0.04em;
     color: #4A4A4A;
     text-align: justify;
+    text-justify: distribute;
 }
 .italic-text {
     font-family: "Roboto", sans-serif;
@@ -354,16 +355,16 @@ color: #4A4A4A;
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 19px;
-    color: #4A4A4A;
+    color: #767676;
 }
 
 footer {
     padding-top: 30px;
 }
 footer a{
-    color: #4A4A4A;
+    color: #767676;
 }
 
 footer a:hover {

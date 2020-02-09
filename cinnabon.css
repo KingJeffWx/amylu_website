@@ -4,7 +4,7 @@
     font-weight: normal;
     line-height: 155.19%;
     letter-spacing: 0.04em;
-    font-size: 14px;
+    font-size: 20px;
 }
 #mainContent {
     background-color: #fcfcfc;
@@ -301,12 +301,6 @@ button:hover {
 }
 
 /* Navbar CSS */
-/* ul.navbar-nav {
-    padding-top: 0px;
-    font-size: 12px;
-    line-height: 133.69%;
-    letter-spacing: 0.2em;
-} */
 
 nav a{
     font-size: 12px;
@@ -329,9 +323,9 @@ a.nav-link:hover, a.nav-link:active, a.design_sub:hover, a.design_sub:active {
     font-family: "SF Pro Text", sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 19px;
-    color: #4A4A4A;
+    color: #767676;
 }
 
 footer{
@@ -339,7 +333,7 @@ footer{
 }
 
 footer a{
-    color: #4A4A4A;
+    color: #767676;
 }
 
 footer a:hover {
