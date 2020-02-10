@@ -116,37 +116,35 @@ research-middle, design-right {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 146.69%;
     /* or 56px */
     letter-spacing: 0.07em;
-    color: #4A4A4A;
+    color: #000;
 }
 .intro-text {
     max-width:712px;
     text-align: left;
 }
 .first-text {
-    max-width: 417px;
+    max-width: 500px;
 }
 #physical {
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
+    font-style: ;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 146.69%;
     /* or 56px */
 
     letter-spacing: 0.07em;
-    font-style: italic;
     text-decoration: underline;
-    color: #4A4A4A;
+    color: #000;
 }
 
 #physical:hover {
-    color: #DD0033;
     cursor: pointer;
     text-decoration: none;
 }
@@ -188,7 +186,7 @@ h3 {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 70px;
     line-height: 157.19%;
     /* or 62px */
@@ -198,10 +196,11 @@ h1 {
 }
 
 h1 a {
-    color: #2D9CDB;
+    text-decoration: underline;
+    color: #000;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 70px;
     line-height: 157.19%;
     /* or 62px */
@@ -211,12 +210,12 @@ h1 a {
 .whoIsAmy_2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
-    line-height: 137.69%;
+    line-height: 160.69%;
     letter-spacing: 0.07em;
     color: #000000;
-    max-width: 418px;
+    max-width: 750px;
     text-align: left;
 }
 
