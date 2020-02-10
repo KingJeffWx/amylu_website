@@ -116,20 +116,26 @@ research-middle, design-right {
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-style: italic;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 150.5%;
+    font-size: 24px;
+    line-height: 146.69%;
     /* or 56px */
     letter-spacing: 0.07em;
     color: #000000;
 }
+.intro-text {
+    max-width:712px;
+}
+.first-text {
+    max-width: 417px;
+}
 #physical {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-style: italic;
     font-weight: 500;
-    font-size: 28px;
-    line-height: 150.5%;
+    font-size: 24px;
+    line-height: 146.69%;
     /* or 56px */
 
     letter-spacing: 0.07em;
@@ -142,9 +148,7 @@ h3 {
     color: red;
     cursor: pointer;
 }
-.IntroText {
-    max-width: 1000px;
-}
+
 #Design {
     background-color:#ebf7ff;
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
@@ -188,12 +192,13 @@ h3 {
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 70px;
     line-height: 157.19%;
     /* or 62px */
     letter-spacing: 0.07em;
     color: #000000;
+    text-align: center;
 }
 
 h1 a {
@@ -215,16 +220,16 @@ h1 a {
     line-height: 140%;
     letter-spacing: 0.045em;
     color: #444444; */
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 font-style: normal;
-font-weight: 500;
-font-size: 40px;
-line-height: 157.19%;
+font-weight: 300;
+font-size: 28px;
+line-height: 137.69%;
 /* or 79px */
 
 letter-spacing: 0.07em;
-
-color: #000000;
+color: #4a4a4a;
+max-width: 418px;
 }
 
 p {
