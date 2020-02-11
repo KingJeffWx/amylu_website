@@ -51,10 +51,12 @@ p {
 }
 .img-shadow {
 box-shadow: -3px 6px 146px -97px rgba(56,56,56,1);
+transition: all 0.3s ease 0s;
 
 }
 .img-shadow:hover {
     box-shadow: 0 14px 28px rgba(77, 77, 77, 0.1), 0 10px 10px rgba(0,0,0,0.22);
+    transform: translateY(-7px);
 }
 figure {
     display: inline-block;
