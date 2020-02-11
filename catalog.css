@@ -206,6 +206,7 @@ figure.dating_figure {
 
 #researchGoals {
     background-color: white;
+    
 }
 
 #designGoals_header {
@@ -288,7 +289,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 36px;
     line-height: 145%;
 
     letter-spacing: 0.07em;
@@ -299,7 +300,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 191.69%;
     /* or 58px */
     color: #000000;
