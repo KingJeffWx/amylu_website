@@ -127,7 +127,7 @@ p {
     line-height: 28px;
     letter-spacing: 0.04em;
     color: #4A4A4A;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .regular-text {
     font-family: 'neue-haas-unica', sans-serif;

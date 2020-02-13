@@ -82,8 +82,8 @@ p, .list {
     line-height: 28px;
     letter-spacing: 0.04em;
     color: #4A4A4A;
-    text-align: justify;
-    text-justify: auto;
+    /* text-align: justify;
+    text-justify: auto; */
 }
 
 .large-text {
