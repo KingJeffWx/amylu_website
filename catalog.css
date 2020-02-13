@@ -290,8 +290,8 @@ h1 {
 .large-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: 28px;
     line-height: 145%;
 
     letter-spacing: 0.07em;
